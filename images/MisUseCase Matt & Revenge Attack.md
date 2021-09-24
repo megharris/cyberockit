@@ -30,4 +30,4 @@ necessary to identify such malicious activity. Finally, requiring additional aut
 in place for access to the log files would prevent the attacker from tampering with the log files effectively “covering their 
 tracks.”
 
-![MisUseCase Diagram](images/MisUseCase Matt & Revenge Attack.PNG)
+![MisUseCase Diagram](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack.PNG)
