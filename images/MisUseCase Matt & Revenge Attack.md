@@ -30,4 +30,4 @@ necessary to identify such malicious activity. Finally, requiring additional aut
 in place for access to the log files would prevent the attacker from tampering with the log files effectively “covering their 
 tracks.”
 
-/images/MisUseCase Matt & Revenge Attack.PNG
+![Image of Yaktocat]/images/MisUseCase Matt & Revenge Attack.PNG
