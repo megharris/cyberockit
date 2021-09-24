@@ -1,4 +1,4 @@
-_**Use Case**_
+#Use Case
 
 Matt owns a local manufacturing firm employing several employees. The business serves multiple large retail clients 
 around the Midwest region like Menards and Bomgaars. Matt has a shop with warehouse space that holds all of their 
