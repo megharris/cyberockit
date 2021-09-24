@@ -1,4 +1,4 @@
-#Use Case
+# Use Case
 
 Matt owns a local manufacturing firm employing several employees. The business serves multiple large retail clients 
 around the Midwest region like Menards and Bomgaars. Matt has a shop with warehouse space that holds all of their 
@@ -9,7 +9,7 @@ installed and began using a computerized numerical controller (CNC) which is con
 Modbus.
 
 
-#Misuse Case
+# Misuse Case
 
 Andrew is a hacker in town who’s father was recently laid off from Matt’s business. Andrew knows that Matt started 
 using Home Assistant to control all of his devices and decides this will be a good way to cause some havoc for Matt. He 
@@ -21,7 +21,7 @@ guard on the machine which put other employees in the building at serious risk o
 fractures, amputations, or even death from ejected parts.
 
 
-#Prevention and Security Requirement
+# Prevention and Security Requirement
 
 This misuse case could be prevented by using layers of security measures. Primarily, password protection should prevent 
 attackers from gaining access to Home Assistant. Secondly, Matt should enable the logger function of Home Assistant to 
