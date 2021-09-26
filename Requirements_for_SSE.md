@@ -8,7 +8,7 @@
 
 
 ## Case 3
-###Attack by Installing Harmful Add-Ons
+### Attack by Installing Harmful Add-Ons
 
 ### Scenario
 Mr Reynolds has an antique shop that houses some rare antiques from time to time. He chooses to use HA to control the access gates and cameras in his business place. He also uses supervisor applications to install add-ons which helps strengthen his security system and does some basic utilities. Ryan has a lot of knowledge in hacking and participates in hackathons. He finds out about a very expensive antique in Mr Reynolds collection. If he could somehow steal it and become very wealthy overnight by selling it on the black market. Ryan tries to find a weakness in the shop’s security system to figure out if the hassle is worth his time or not.
