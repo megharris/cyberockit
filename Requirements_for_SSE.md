@@ -2,7 +2,7 @@
 
 ###
 ###
-### [Attack by Installing Add-Ons](Requirements_for_SSE.md)
+### [Attack by Installing Add-Ons](#use/misuse-case-3:-attack-by-installing-harmful-add-ons)
 ###
 ###
 
