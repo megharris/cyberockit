@@ -5,4 +5,5 @@ This is the Repository for the **Software Assurance** course at the University o
 ## Project Deliverables
 
 * **[Project Proposal](https://github.com/megharris/cyberockit/blob/main/Proposal.md)**
+* **[Requirements for SSE](https://github.com/megharris/cyberockit/blob/main/Requirements for SSE.md)**
 
