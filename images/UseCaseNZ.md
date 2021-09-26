@@ -24,9 +24,9 @@ the other chemicals that weren’t burned off leach into the groundwater and con
 **Prevention and Security Requirement**
 
 This misuse case could be prevented by notification when a new device is trying to connect to a IoT device. The assumption is that Frank would potentially 
-be able to be near the premises to set up access on his own device, and autoconnect to the thermostat. Secure monitoring and an alert system on Sherri’s
-UI might prevent Frank from being able to change the temperature and threshold settings. If Frank was able to turn off an alert set up by Sherri somehow 
-there would need to be a reminder that the alert wasn’t on.
+be able to be near the premises to set up access on his own device (possibly a raspberry pi), and autoconnect to the thermostat. Secure monitoring and an 
+alert system on Sherri’s UI might prevent Frank from being able to change the temperature and threshold settings. If Frank was able to turn off an alert 
+set up by Sherri somehow there would need to be a reminder that the alert wasn’t on.
 
 <br>
 
