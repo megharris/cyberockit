@@ -22,6 +22,7 @@ Ryan the hacker creates a harmful add-on to upload in the supervisor system. By 
 Ryan proceeds in building a harmful application and coats it inside a good looking application that would interest Mr Reynolds. He tries to get installed and control the home assistant system through his security application and steal the antique item easily. However, he faces a verification system that HA uses to verify add-ons before they are integrated into the main system of add-ons. Even after verification, clever malware can be hidden so manual testing is suggested for future HA add-ons. If Ryan fails to get into the HA supervisor he plans to send the link to an unauthorized download of security software by prompting Mr Reynolds with a real like website and everything. When Mr Reynolds will download from that application HA should detect its attempt to integrate with the system and warn the user to reconsider installing any unauthorized file. In this regard, it is slightly difficult because add-ons cannot run in the HA unless it is installed through the supervisor system. 
 
 ## Case 4 
+###IoT Device 
 
 Sherri owns a small hazardous material processing company. The business serves multiple clients around her region and she has a warehouse space that is 
 integral to the company function. The company’s focus is on environmental protection. One of their main functions is picking up waste from high quantity 
