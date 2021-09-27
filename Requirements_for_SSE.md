@@ -200,6 +200,13 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 
 Each of the five team members contributed a scenario and use case diagram. We met twice to discuss the project, once before our instructor check-in and again once after. We also communicated via Slack and used a [Project Board](https://github.com/users/BigElkHunter/projects/1) to be sure we stayed on task. We planned to have our respective parts completed with enough time for each team member to review all of the other four cases. There has been a lot of discussion as we are all new to this type of modeling. It occurred to us after the project that many of our comments were exchanged via slack and we can better utilize the "comment" feature of Github for collaboration on future projects. For both of these team project submissions, 
 
+Individual Contributions:
+* Jay Chavhan: Use case 1, review prevention and security requirements for use cases, attend team meetings and discuss scenarios
+* Meg Harris: Use case 2, team reflection, organization, task delegation, review use cases and diagrams, attend team meetings and discuss scenarios
+* Shifat Sarwar: Use case 3, create markdown file, review use cases, review prevention and security requirements for use cases, review security related configuration and installation issues, attend team meetings and discuss scenarios
+* Noah Zetocha: Use case 4, attend team meetings and discuss scenarios
+* Dylan Redden: Use case 5, prepare security related configuration and installation issues, attend team meetings and discuss scenarios
+
 ### Sources
 ###### [Return to Top](#requirements-for-system-security-engineering)
 
