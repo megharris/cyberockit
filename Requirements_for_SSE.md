@@ -8,7 +8,7 @@
 * **[IoT Device Risk](#case-4)**
 * **[Abuse of System](#case-5)**
 ### [Part 2](#part-2)
-* **[Security Related Configuration and Installation Issues](#part-2)**
+* **[Security Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)**
 * **[Reflection](#reflection)**
 * **[Sources](#sources)**
 
