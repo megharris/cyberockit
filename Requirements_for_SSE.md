@@ -1,18 +1,18 @@
 # Requirements for System Security Engineering
 
 ## Index
-### [Part 1](#part-1)
+### [Part One](#part-one)
 * **[Remote Access](#case-1)**
 * **[Brute Force Password Attack](#case-2)**
 * **[Attack by Installing Add-Ons](#case-3)**
 * **[IoT Device Risk](#case-4)**
 * **[Abuse of System](#case-5)**
-### [Part 2](#part-2)
+### [Part Two](#part-two)
 * **[Security Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)**
 * **[Reflection](#reflection)**
 * **[Sources](#sources)**
 
-## PART 1
+## PART ONE
 
 ### Case 1
 #### Remote Access
@@ -178,7 +178,7 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 **Figure: Use/Misuse for Abuse of System Device**
 
 
-## PART 2
+## PART TWO
 
 ### Security Related Configuration and Installation Issues
 ###### [Return to Top](#requirements-for-system-security-engineering)
