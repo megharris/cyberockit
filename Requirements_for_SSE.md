@@ -145,7 +145,7 @@ be able to be near the premises to set up access on his own device (possibly a r
 alert system on Sherri’s UI might prevent Frank from being able to change the temperature and threshold settings. If Frank was able to turn off an alert 
 set up by Sherri somehow there would need to be a reminder that the alert wasn’t on.
 
-![misuse](https://user-images.githubusercontent.com/63809979/134999682-759142d3-6aa0-4b9e-96f8-024780f9738d.png)
+![misuse](https://user-images.githubusercontent.com/63809979/135000364-9309e84d-0d13-4cad-9b6d-cf758d37e55c.png)
 
 **Figure: Use/Misuse for IoT Device**
 
