@@ -174,7 +174,8 @@ set up by Sherri somehow there would need to be a reminder that the alert wasnâ€
      * https://www.home-assistant.io/integrations/systemmonitor/
 * Alert system: Yes
      * https://www.home-assistant.io/integrations/alert/
-
+* Device Registry: Yes
+     * https://developers.home-assistant.io/docs/device_registry_index/
 
 
 ### Case 5
