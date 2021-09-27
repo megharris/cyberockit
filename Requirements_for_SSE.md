@@ -19,18 +19,18 @@
 ###### [Return to Top](#requirements-for-system-security-engineering)
 
 #### Use Case
-Max is a millionaire and has lot of cash at home. As he is a busy person most of his work is away from home. Max uses the home assistant system to control the hardware security system such as smart locks, security alarm, and security cameras. Remote access is the best way for Max to control the system and keep an eye on the activities. The main aim for Max is to be able to securely control the system remotely and get updates in regular time intervals. Max has several ways to use remote access such as port forwarding, VPN tunnel, or secure applications such as Nabu Case and DuckDNS.
+Max is a millionaire and has a lot of cash at home. As he is a busy person most of his work is away from home. Max uses the home assistant system to control the hardware security system such as smart locks, security alarm, and security cameras. Remote access is the best way for Max to control the system and keep an eye on the activities. Max's primary goal is to be able to securely control the system remotely and get updates in regular time intervals. Max has several ways to use remote access such as port forwarding, VPN tunnel, or secure applications such as Nabu Case and DuckDNS.
 
 #### Misuse Case
-Attacker has an intention to rob Max’s home when he is away. To do so, Attacker should disable all the hardware security system used by Max. The main aim of attacker is to take access of home assistance remotely and deactivate the security system that will stop sending regular updates to Max. Attacker can achieve this by guessing password and exploiting the loopholes in the home assistance system used by Max.
+An attacker has an intention to rob Max’s home when he is away. To do so, the attacker should disable all the hardware security systems used by Max. The main aim of the attacker is to take access of home assistance remotely and deactivate the security system that will stop sending regular updates to Max. The attacker can achieve this by guessing the password and exploiting the loopholes in the home assistance system used by Max.
 
 #### Prevention and Security Requirement
-Max can use security features to keep his system secure from attackers. Few such feature are as follows:
+Max can use security features to keep his system secure from attackers. Examples include:
 1.	Use secure application such as NabuCase and DuckDNS for remote access.
 2.	Make sure to have terminal/SSH on the OS of Home assistance
 3.	Use VPN Tunneling
 4.	Port forwarding should be done on TCP protocol
-5.	Enable Ip Ban while configuration of system
+5.	Enable IP Ban while configuration of system
 6.	Use strong password 
 
 ![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/NewRemoteAccess.png) 
@@ -38,7 +38,19 @@ Max can use security features to keep his system secure from attackers. Few such
 **Figure: Use/Misuse for Remote Access Attack**
 
 #### Alignment of Security Requirements with Advertised Features
-
+* Use secure application such as NabuCase and DuckDNS for remote access: Yes
+     * https://www.home-assistant.io/integrations/duckdns/
+* Make sure to have terminal/SSH on the OS of Home assistance: Yes
+     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
+     * https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
+* Use VPN Tunneling: Yes
+     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
+     * https://pivpn.io/
+* Port forwarding should be done on TCP protocol: Yes
+     * https://www.home-assistant.io/integrations/fritz/#port-forward
+* Enable IP Ban while configuration of system: Yes
+     * https://www.home-assistant.io/integrations/http#ip-filtering-and-banning
+* Use strong password 
 
 
 ### Case 2
@@ -73,11 +85,13 @@ In order to prevent a brute force password attack from being successful, Home As
 
 #### Alignment of Security Requirements with Advertised Features
 * Logger: Yes
-     *https://www.home-assistant.io/docs/mqtt/logging/
+     * https://www.home-assistant.io/docs/mqtt/logging/
 * Logger-specific credentials: Possibly
      * https://www.home-assistant.io/docs/authentication/providers/
-* Account lockout: No
-* Anomaly detection: No
+* Account lockout: Yes
+     * https://www.home-assistant.io/docs/locked_out/#forgot-password
+* Anomaly detection: Yes
+     * https://www.home-assistant.io/integrations/datadog/
 * Multifactor authentication: Yes
      * https://www.home-assistant.io/docs/authentication/multi-factor-auth/
 * Encrypted data transmissions: Yes
