@@ -1,16 +1,15 @@
 # Requirements for System Security Engineering
 
-## PART 1 LINKS
+## Index
 
-### [Remote Access](#case-1)
-### [Brute Force Password Attack](#case-2)
-### [Attack by Installing Add-Ons](#case-3)
-### [IoT Device Risk](#case-4)
-### [Abuse of System](#case-5)
-
-## PART 2 LINK
-### [Security Related Configuration and Installation Issues](#part-2)
-### [Reflection](#reflection)
+### [Part 1 Remote Access](#case-1)
+### [Part 1 Brute Force Password Attack](#case-2)
+### [Part 1 Attack by Installing Add-Ons](#case-3)
+### [Part 1 IoT Device Risk](#case-4)
+### [Part 1 Abuse of System](#case-5)
+### [Part 2 Security Related Configuration and Installation Issues](#part-2)
+### [Part 2 Reflection](#reflection)
+### [Sources](#sources)
 
 ## PART 1
 
@@ -182,3 +181,6 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 
 
 ### Reflection
+Each of the five team members contributed a scenario and use case diagram. We met twice to discuss the project, once before our instructor check-in and again once after. We also communicated via Slack and used a [Project Board](https://github.com/users/BigElkHunter/projects/1) to be sure we stayed on task. We planned to have our respective parts completed with enough time for each team member to review all of the other four cases. There has been a lot of discussion as we are all new to this type of modeling. It occurred to us after the project that many of our comments were exchanged via slack and we can better utilize the "comment" feature of Github for collaboration on future projects. For both of these team project submissions, 
+
+### Sources
