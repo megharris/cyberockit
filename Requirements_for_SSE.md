@@ -1,11 +1,43 @@
 # Reuirements for System Security Engineering
 
 ###
-###
+### [Brute Force Password Attack](#case-2)
 ### [Attack by Installing Add-Ons](#case-3)
 ### [IoT Device Risk](#case-4)
 ###
 
+
+## Case 2
+### Brute Force Password Attack
+
+### Scenario
+Matt owns a local manufacturing firm employing several employees. The business serves multiple large retail clients 
+around the Midwest region like Menards and Bomgaars. Matt has a shop with warehouse space that holds all of their 
+operational technology and significant volumes of high-value inventory. He also has a security system with cameras, an 
+alarm, and automatic locks. He wants to take advantage of the convenience of using Home Assistant to control all of his 
+operational technology, security system, thermostat, lighting, and POS system. As his business is growing, he recently 
+installed and began using a computerized numerical controller (CNC) which is connected to Home Assistant through 
+Modbus.
+
+### Misuser
+Andrew is a hacker in town who’s father was recently laid off from Matt’s business. Andrew knows that Matt started 
+using Home Assistant to control all of his devices and decides this will be a good way to cause some havoc for Matt. He 
+uses a brute force attack in order gain access to Matt’s Home Assistant to infect some of Matt’s devices with Malware. 
+Once he gained access to Home Assistant, he found the Modbus add-on which is connected to a very expensive and very 
+new piece of equipment, the CNC. Andrew installed the malware on the CNC and several other connected devices. 
+Gaining control over the CNC device, Andrew changed the rotational speed of the machine and unlocked the safety 
+guard on the machine which put other employees in the building at serious risk of entanglement and lacerations, 
+fractures, amputations, or even death from ejected parts.
+
+![Drawio Revenge Image](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack%20CLEAN.PNG)
+### Figure: Use/Misuse 
+
+**Prevention and Security Requirement**
+
+This misuse case could be prevented by notification when a new device is trying to connect to a IoT device. The assumption is that Frank would potentially 
+be able to be near the premises to set up access on his own device (possibly a raspberry pi), and autoconnect to the thermostat. Secure monitoring and an 
+alert system on Sherri’s UI might prevent Frank from being able to change the temperature and threshold settings. If Frank was able to turn off an alert 
+set up by Sherri somehow there would need to be a reminder that the alert wasn’t on.
 
 ## Case 3
 ### Attack by Installing Harmful Add-Ons
