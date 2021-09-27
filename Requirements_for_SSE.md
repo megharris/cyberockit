@@ -19,18 +19,18 @@
 ###### [Return to Top](#requirements-for-system-security-engineering)
 
 #### Use Case
-Max is a millionaire and has a lot of cash at home. As he is a busy person most of his work is away from home. Max uses the home assistant system to control the hardware security system such as smart locks, security alarm, and security cameras. Remote access is the best way for Max to control the system and keep an eye on the activities. Max's primary goal is to be able to securely control the system remotely and get updates in regular time intervals. Max has several ways to use remote access such as port forwarding, VPN tunnel, or secure applications such as Nabu Case and DuckDNS.
+Max is a millionaire and has lot of cash at home. As he is a busy person most of his work is away from home. Max uses the home assistant system to control the hardware security system such as smart locks, security alarm, and security cameras. Remote access is the best way for Max to control the system and keep an eye on the activities. The main aim for Max is to be able to securely control the system remotely and get updates in regular time intervals. Max has several ways to use remote access such as port forwarding, VPN tunnel, or secure applications such as Nabu Case and DuckDNS.
 
 #### Misuse Case
-An attacker has an intention to rob Max’s home when he is away. To do so, the attacker should disable all the hardware security systems used by Max. The main aim of the attacker is to take access of home assistance remotely and deactivate the security system that will stop sending regular updates to Max. The attacker can achieve this by guessing the password and exploiting the loopholes in the home assistance system used by Max.
+Attacker has an intention to rob Max’s home when he is away. To do so, Attacker should disable all the hardware security system used by Max. The main aim of attacker is to take access of home assistance remotely and deactivate the security system that will stop sending regular updates to Max. Attacker can achieve this by guessing password and exploiting the loopholes in the home assistance system used by Max.
 
 #### Prevention and Security Requirement
-Max can use security features to keep his system secure from attackers. Examples include:
+Max can use security features to keep his system secure from attackers. Few such feature are as follows:
 1.	Use secure application such as NabuCase and DuckDNS for remote access.
 2.	Make sure to have terminal/SSH on the OS of Home assistance
 3.	Use VPN Tunneling
 4.	Port forwarding should be done on TCP protocol
-5.	Enable IP Ban while configuration of system
+5.	Enable Ip Ban while configuration of system
 6.	Use strong password 
 
 ![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/NewRemoteAccess.png) 
@@ -38,19 +38,6 @@ Max can use security features to keep his system secure from attackers. Examples
 **Figure: Use/Misuse for Remote Access Attack**
 
 #### Alignment of Security Requirements with Advertised Features
-* Use secure application such as NabuCase and DuckDNS for remote access: Yes
-     * https://www.home-assistant.io/integrations/duckdns/
-* Make sure to have terminal/SSH on the OS of Home assistance: Yes
-     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
-     * https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
-* Use VPN Tunneling: Yes
-     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
-     * https://pivpn.io/
-* Port forwarding should be done on TCP protocol: Yes
-     * https://www.home-assistant.io/integrations/fritz/#port-forward
-* Enable IP Ban while configuration of system: Yes
-     * https://www.home-assistant.io/integrations/http#ip-filtering-and-banning
-* Use strong password 
 
 
 
@@ -86,13 +73,11 @@ In order to prevent a brute force password attack from being successful, Home As
 
 #### Alignment of Security Requirements with Advertised Features
 * Logger: Yes
-     * https://www.home-assistant.io/docs/mqtt/logging/
-* Logger-specific credentials: Occasionally
+     *https://www.home-assistant.io/docs/mqtt/logging/
+* Logger-specific credentials: Possibly
      * https://www.home-assistant.io/docs/authentication/providers/
-* Account lockout: Yes
-     * https://www.home-assistant.io/docs/locked_out/#forgot-password
-* Anomaly detection: Yes
-     * https://www.home-assistant.io/integrations/datadog/
+* Account lockout: No
+* Anomaly detection: No
 * Multifactor authentication: Yes
      * https://www.home-assistant.io/docs/authentication/multi-factor-auth/
 * Encrypted data transmissions: Yes
@@ -110,25 +95,22 @@ Mr Reynolds has an antique shop that houses some rare antiques from time to time
 #### Misuse Case
 Ryan the hacker creates a harmful add-on to upload in the supervisor system. By careful observation, he knew if the add-on is about something that would enhance the security Mr Reynolds will definitely install the application without a second thought. 
 
-Ryan proceeds in building a harmful application and coats it inside a good looking application that would interest Mr Reynolds. He tries to get installed and control the home assistant system through his security application and steal the antique item easily. However, he faces a verification system that HA uses to verify add-ons before they are integrated into the main system of add-ons. Even after verification, clever malware can be hidden so manual testing is suggested for future HA add-ons. If Ryan fails to get into the HA supervisor he plans to send the link to an unauthorized download of security software by prompting Mr Reynolds with a real like website and everything. When Mr Reynolds will download from that application HA should detect its attempt to integrate with the system and warn the user to reconsider installing any unauthorized file. In this regard, it is slightly difficult because add-ons cannot run in the HA unless it is installed through the supervisor system. 
+Ryan develops a harmful application and coats it inside a good looking application that would interest Mr Reynolds. Next, he tries to get Mr Reynolds to install the application. When the application runs with HA Ryan, will control the HA system through it. It would make stealing the antique item very easy. However, he faces a verification system that HA uses to verify add-ons before they are integrated into the official store of add-ons.  Even after verification, some exploitable codes can be added to an authorized add-on so Manual testing should be done to increase security. Fortunately, for Ryan unauthorized add-ons can also be installed in HA. He posts the add-on in the unofficial HA add-ons list. All users are warned, that HA will not be responsible for the functionality and security of the unauthorized add-ons. Ryan chooses to upload his add-on application there and prompt Mr Reynolds to install the application by email. HA can also develop an automated scan before installation to warn Mr Reynolds about possible security issues with the application. When Mr Reynolds will download from the application HA should further detect its attempt to integrate with the system and warn the user to reconsider installing this unauthorized file. In this regard, Ryan will not succeed because the updated HA prevents most unauthorized intigrations from gaining control over useful user information. 
 
 #### Prevention and Security Requirement
 
 Few security features to keep the supervisor system secure from attackers are as follows:
 1.	Manual add-on verification 
 2.	Community push verification 
-3.	Scan all the other applications in the system where HA is running and warn users of harmful ones
-4.	Runs automatic virus scan before download 
+3.	Scan all the other applications in the system where HA is running
+4.	Warn users of harmful add-ons before installation by running basic scans.
+5.	Runs automatic virus scan before download 
 
 ![Attack by Installing Harmful Add-Ons](https://github.com/megharris/cyberockit/blob/main/images/AntiqueOwnerAddOnInstallation-2.png)
 
 **Figure: Use/Misuse for Harmful Add-On attack**
 
 #### Alignment of Security Requirements with Advertised Features
-* Manual add-on verification 
-* Community push verification 
-* Scan all the other applications in the system where HA is running and warn users of harmful ones
-* Runs automatic virus scan before download 
 
 
 
@@ -168,22 +150,8 @@ set up by Sherri somehow there would need to be a reminder that the alert wasn�
 **Figure: Use/Misuse for IoT Device**
 
 #### Alignment of Security Requirements with Advertised Features
-* Notification of new device: Yes
-     * https://www.home-assistant.io/integrations/deconz/#requesting-support-for-new-device-trigger
-* Secure monitoring: Yes
-     * https://www.home-assistant.io/integrations/systemmonitor/
-* Alert system: Yes
-     * https://www.home-assistant.io/integrations/alert/
-* Device Registry: Yes
-     * https://developers.home-assistant.io/docs/device_registry_index/
-* Second Home Assistant Instance: No
-     * So far not much is available in the case of multiple Home Assistant set ups communicating with 
-     each other, some users have requested being able to link multiple Home Assistants if needing to
-     spread out the range, or connect devices that aren't allowed on another device. I can't find much
-     documentation on security concerns for rogue Home Assistant users that are in close proximity to 
-     another Home Assistant to autoconnect to the devices. This was the discussion on setting up multiple
-     Home Assistant instances.
-     https://github.com/home-assistant/architecture/issues/246
+
+
 
 ### Case 5
 #### Abuse of System
