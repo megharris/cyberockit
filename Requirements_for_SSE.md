@@ -53,6 +53,7 @@ Max can use security features to keep his system secure from attackers. Examples
 * Use strong password 
 
 
+
 ### Case 2
 #### Password Attack
 ###### [Return to Top](#requirements-for-system-security-engineering)
@@ -124,6 +125,10 @@ Few security features to keep the supervisor system secure from attackers are as
 **Figure: Use/Misuse for Harmful Add-On attack**
 
 #### Alignment of Security Requirements with Advertised Features
+* Manual add-on verification 
+* Community push verification 
+* Scan all the other applications in the system where HA is running and warn users of harmful ones
+* Runs automatic virus scan before download 
 
 
 
@@ -163,6 +168,12 @@ set up by Sherri somehow there would need to be a reminder that the alert wasnâ€
 **Figure: Use/Misuse for IoT Device**
 
 #### Alignment of Security Requirements with Advertised Features
+* Notification of new device: Yes
+     * https://www.home-assistant.io/integrations/deconz/#requesting-support-for-new-device-trigger
+* Secure monitoring: Yes
+     * https://www.home-assistant.io/integrations/systemmonitor/
+* Alert system: Yes
+     * https://www.home-assistant.io/integrations/alert/
 
 
 
