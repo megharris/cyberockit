@@ -16,6 +16,7 @@
 
 ### Case 1
 #### Remote Access
+###### [Return to Top](#requirements-for-system-security-engineering)
 
 #### Use Case
 Max is a millionaire and has lot of cash at home. As he is busy person most of his work is away from home. Max uses home assistance system to control the hardware security system such as smart locks, security alarm and security cameras. Remote access is best way for Max to control the system and keep an eye on the activities. The main aim for Max is to be able to securely control the system remotely and get updates in regular time intervals. Max has several ways to use remote access such as port forwarding, VPN tunnel, or secure applications such as Nabu Case and DuckDNS.
