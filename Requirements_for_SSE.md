@@ -33,7 +33,7 @@ Max can use security features to keep his system secure from attackers. Few such
 5.	Enable Ip Ban while configuration of system
 6.	Use strong password 
 
-![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/NewRemoteAccess.png) 
+![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/FinalRemoteAccess.png) 
 
 **Figure: Use/Misuse for Remote Access Attack**
 
