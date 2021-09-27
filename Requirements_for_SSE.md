@@ -177,7 +177,7 @@ set up by Sherri somehow there would need to be a reminder that the alert wasnâ€
 * Device Registry: Yes
      * https://developers.home-assistant.io/docs/device_registry_index/
 * Second Home Assistant Instance: No
-     So far not much is available in the case of multiple Home Assistant set ups communicating with 
+     * So far not much is available in the case of multiple Home Assistant set ups communicating with 
      each other, some users have requested being able to link multiple Home Assistants if needing to
      spread out the range, or connect devices that aren't allowed on another device. I can't find easy
      documentation on security concerns for rogue Home Assistant users that are in close proximity to 
