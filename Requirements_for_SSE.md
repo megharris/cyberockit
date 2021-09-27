@@ -61,7 +61,7 @@ new piece of equipment, the CNC. Gaining control over the CNC device, Andrew cha
 guard on the machine which put other employees in the building at serious risk of entanglement and lacerations, 
 fractures, amputations, and even death from ejected parts.
 
-![Drawio Brute Force Password Image](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack%20CLEAN.PNG)
+![Drawio Brute Force Password Image](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack%20v3.PNG)
 
 **Figure: Use/Misuse for Brute Force Password Attack**
 
