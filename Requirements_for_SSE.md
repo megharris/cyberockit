@@ -1,12 +1,17 @@
 # Requirements for System Security Engineering
 
-## PART 1
+## PART 1 LINKS
 
 ### [Remote Access](#case-1)
 ### [Brute Force Password Attack](#case-2)
 ### [Attack by Installing Add-Ons](#case-3)
 ### [IoT Device Risk](#case-4)
 ### [Abuse of System](#case-5)
+
+## PART 2 LINK
+### [Security-Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)
+
+## PART 1
 
 ### Case 1
 #### Remote Access
@@ -163,6 +168,8 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 
 
 ## PART 2
+
+### Security-Related Configuration and Installation Issues
 
 *	Blog posts of users helping users with configuration/install issues:
     * https://community.home-assistant.io/t/home-assistant-manual-security-system-with-xiaomi-gateway-as-siren/287916
