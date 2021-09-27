@@ -176,7 +176,14 @@ set up by Sherri somehow there would need to be a reminder that the alert wasnâ€
      * https://www.home-assistant.io/integrations/alert/
 * Device Registry: Yes
      * https://developers.home-assistant.io/docs/device_registry_index/
-
+* Second Home Assistant Instance: No
+     * So far not much is available in the case of multiple Home Assistant set ups communicating with 
+     * each other, some users have requested being able to link multiple Home Assistants if needing to
+     * spread out the range, or connect devices that aren't allowed on another device. I can't find easy
+     * documentation on security concerns for rogue Home Assistant users that are in close proximity to 
+     * another Home Assistant to autoconnect to the devices. This was the discussion on setting up multiple
+     * Home Assistant instances.
+     * https://github.com/home-assistant/architecture/issues/246
 
 ### Case 5
 #### Abuse of System
@@ -261,8 +268,6 @@ Individual Contributions:
 * Shifat Sarwar: Use case 3, create markdown file, review use cases, review prevention and security requirements for use cases, review security related configuration and installation issues, attend team meetings and discuss scenarios
 * Noah Zetocha: Use case 4, attend team meetings and discuss scenarios
 * Dylan Redden: Use case 5, prepare security related configuration and installation issues, attend team meetings and discuss scenarios
-
-NOTE: Draft files were uploaded in the [images folder](https://github.com/megharris/cyberockit/tree/main/images) by each team member before being compiled here.
 
 ### Sources
 ###### [Return to Top](#requirements-for-system-security-engineering)
