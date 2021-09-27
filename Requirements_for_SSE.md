@@ -6,7 +6,7 @@
 ### [Brute Force Password Attack](#case-2)
 ### [Attack by Installing Add-Ons](#case-3)
 ### [IoT Device Risk](#case-4)
-### [Abuse of System](###case-5)
+### [Abuse of System](#case-5)
 
 ### Case 1
 #### Remote Access
