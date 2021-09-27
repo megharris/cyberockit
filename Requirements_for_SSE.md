@@ -169,7 +169,7 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 
 ## PART 2
 
-### Security-Related Configuration and Installation Issues
+### Security Related Configuration and Installation Issues
 
 *	Blog posts of users helping users with configuration/install issues:
     * https://community.home-assistant.io/t/home-assistant-manual-security-system-with-xiaomi-gateway-as-siren/287916
