@@ -150,7 +150,7 @@ set up by Sherri somehow there would need to be a reminder that the alert wasnâ€
 **Figure: Use/Misuse for IoT Device**
 
 #### Alignment of Security Requirements with Advertised Features
- Notification of new device: Yes
+* Notification of new device: Yes
      * https://www.home-assistant.io/integrations/deconz/#requesting-support-for-new-device-trigger
 * Secure monitoring: Yes
      * https://www.home-assistant.io/integrations/systemmonitor/
