@@ -24,12 +24,7 @@ Max is a millionaire and has lot of cash at home. As he is busy person most of h
 #### Misuse Case
 Attacker has an intention to rob Max’s home when he is away. To do so, Attacker should disable all the hardware security system used by Max. The main aim of attacker is to take access of home assistance remotely and deactivate the security system that will stop sending regular updates to Max. Attacker can achieve this by guessing password and exploiting the loopholes in the home assistance system used by Max.
 
-![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/NewRemoteAccess.png) 
-
-**Figure: Use/Misuse for Remote Access Attack**
-
 #### Prevention and Security Requirement
-
 Max can use security features to keep his system secure from attackers. Few such feature are as follows:
 1.	Use secure application such as NabuCase and DuckDNS for remote access.
 2.	Make sure to have terminal/SSH on the OS of Home assistance
@@ -37,6 +32,12 @@ Max can use security features to keep his system secure from attackers. Few such
 4.	Port forwarding should be done on TCP protocol
 5.	Enable Ip Ban while configuration of system
 6.	Use strong password 
+
+![Drawio Remote Access Image](https://github.com/megharris/cyberockit/blob/main/images/NewRemoteAccess.png) 
+
+**Figure: Use/Misuse for Remote Access Attack**
+
+
 
 ### Case 2
 #### Brute Force Password Attack
@@ -61,13 +62,14 @@ new piece of equipment, the CNC. Gaining control over the CNC device, Andrew cha
 guard on the machine which put other employees in the building at serious risk of entanglement and lacerations, 
 fractures, amputations, and even death from ejected parts.
 
+#### Prevention and Security Requirement
+In order to prevent a brute force password attack from being successful, Home Assistant can protect its users by using a variety of controls. Logging activities would allow a Home Assistant user to review the logs for suspicious activity. However, if nefarious actors are aware that a logger exists, they could decide to hide activities from being logged. The user, provided they are reviewing the log, would then be unable to see the logged activities. One way to prevent attackers from hiding logging activities would be to require different login credentials for the logger feature. This would require that the attacker have two successful password hacks in order to gain access to Home Assistant and then again to gain access to the logged files. Home Assistant could develop additional layers of security to prevent brute force password attacks including account lockout for a certain number of unsuccessful login attempts, anomaly detection to determine if someone is logging into the system at an unusual time or in an unusual place, and multi-factor authentication to prevent even a good password for granting access and therefore control to the software.
+
 ![Drawio Brute Force Password Image](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack%20v3.PNG)
 
 **Figure: Use/Misuse for Brute Force Password Attack**
 
-#### Prevention and Security Requirement
 
-In order to prevent a brute force password attack from being successful, Home Assistant can protect its users by using a variety of controls. Logging activities would allow a Home Assistant user to review the logs for suspicious activity. However, if nefarious actors are aware that a logger exists, they could decide to hide activities from being logged. The user, provided they are reviewing the log, would then be unable to see the logged activities. One way to prevent attackers from hiding logging activities would be to require different login credentials for the logger feature. This would require that the attacker have two successful password hacks in order to gain access to Home Assistant and then again to gain access to the logged files. Home Assistant could develop additional layers of security to prevent brute force password attacks including account lockout for a certain number of unsuccessful login attempts, anomaly detection to determine if someone is logging into the system at an unusual time or in an unusual place, and multi-factor authentication to prevent even a good password for granting access and therefore control to the software.
 
 ### Case 3
 #### Attack by Installing Harmful Add-Ons
@@ -92,6 +94,8 @@ Few security features to keep the supervisor system secure from attackers are as
 ![Attack by Installing Harmful Add-Ons](https://github.com/megharris/cyberockit/blob/main/images/AntiqueOwnerAddOnInstallation-2.png)
 
 **Figure: Use/Misuse for Harmful Add-On attack**
+
+
 
 ### Case 4 
 #### IoT Device 
@@ -127,6 +131,8 @@ set up by Sherri somehow there would need to be a reminder that the alert wasn�
 ![misuse](https://user-images.githubusercontent.com/63809979/134778061-7c182401-b10f-4b32-825a-ca5d2ceb3f0c.png)
 
 **Figure: Use/Misuse for IoT Device**
+
+
 
 ### Case 5
 #### Abuse of System
@@ -176,6 +182,7 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 ![misuse](https://github.com/megharris/cyberockit/blob/main/images/abuseofsystem.drawio.png)
 
 **Figure: Use/Misuse for Abuse of System Device**
+
 
 
 ## PART TWO
