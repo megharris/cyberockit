@@ -249,7 +249,7 @@ Individual Contributions:
 * Jay Chavhan: Use case 1, review prevention and security requirements for use cases, attend team meetings and discuss scenarios
 * Meg Harris: Use case 2, team reflection, organization, task delegation, review use cases and diagrams, attend team meetings and discuss scenarios
 * Shifat Sarwar: Use case 3, create markdown file, review use cases, review prevention and security requirements for use cases, review security related configuration and installation issues, attend team meetings and discuss scenarios
-* Noah Zetocha: Use case 4, attend team meetings and discuss scenarios
+* Noah Zetocha: Use case 4, review use cases and diagrams, attend team meetings and discuss scenarios
 * Dylan Redden: Use case 5, prepare security related configuration and installation issues, attend team meetings and discuss scenarios
 
 ### Sources
