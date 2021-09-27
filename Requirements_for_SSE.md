@@ -52,14 +52,14 @@ installed and began using a computerized numerical controller (CNC) which is con
 Modbus.
 
 #### Misuse Case
-Andrew is a hacker in town who’s father was recently laid off from Matt’s business. Andrew knows that Matt started 
+Andrew is an IT professional in town who’s father was recently laid off from Matt’s business. Andrew knows that Matt started 
 using Home Assistant to control all of his devices and decides this will be a good way to cause some havoc for Matt. He 
-uses a brute force attack in order gain access to Matt’s Home Assistant to infect some of Matt’s devices with Malware. 
-Once he gained access to Home Assistant, he found the Modbus add-on which is connected to a very expensive and very 
-new piece of equipment, the CNC. Andrew installed the malware on the CNC and several other connected devices. 
-Gaining control over the CNC device, Andrew changed the rotational speed of the machine and unlocked the safety 
+uses a brute force attack in order gain access to Matt’s Home Assistant, knowing that if he can change the password to prevent Matt from 
+accessing and controlling the equipment, alarm system, thermostat, locks, and any other devices, he can cause some disruption 
+in Matt's business. Once he gained access to Home Assistant, he found the Modbus add-on which is connected to a very expensive and very 
+new piece of equipment, the CNC. Gaining control over the CNC device, Andrew changed the rotational speed of the machine and unlocked the safety 
 guard on the machine which put other employees in the building at serious risk of entanglement and lacerations, 
-fractures, amputations, or even death from ejected parts.
+fractures, amputations, and even death from ejected parts.
 
 ![Drawio Brute Force Password Image](https://github.com/megharris/cyberockit/blob/main/images/MisUseCase%20Matt%20%26%20Revenge%20Attack%20CLEAN.PNG)
 
@@ -67,7 +67,7 @@ fractures, amputations, or even death from ejected parts.
 
 #### Prevention and Security Requirement
 
-NEED TO FILL THIS IN!!!!
+In order to prevent a brute force password attack from being successful, Home Assistant can protect its users by using a variety of controls. Logging activities would allow a Home Assistant user to review the logs for suspicious activity. However, if nefarious actors are aware that a logger exists, they could decide to hide activities from being logged. The user, provided they are reviewing the log, would then be unable to see the logged activities. One way to prevent attackers from hiding logging activities would be to require different login credentials for the logger feature. This would require that the attacker have two successful password hacks in order to gain access to Home Assistant and then again to gain access to the logged files. Home Assistant could develop additional layers of security to prevent brute force password attacks including account lockout for a certain number of unsuccessful login attempts, anomaly detection to determine if someone is logging into the system at an unusual time or in an unusual place, and multi-factor authentication to prevent even a good password for granting access and therefore control to the software.
 
 ### Case 3
 #### Attack by Installing Harmful Add-Ons
