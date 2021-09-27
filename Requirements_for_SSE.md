@@ -10,6 +10,7 @@
 
 ## PART 2 LINK
 ### [Security Related Configuration and Installation Issues](#part-2)
+### [Reflection](reflection)
 
 ## PART 1
 
@@ -178,3 +179,6 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 *	At the bottom of all the instruction pages on the HA website, there is a call to action about writing documentation and helping others. There are links to the Blog, Github, and other parts of the instructions section, with the blog page being the liveliest. The Github page has a lot more direct code tweaking though. https://github.com/home-assistant/home-assistant.io/issues?utf8=%E2%9C%93&q=%22%2Fgetting-started%2Fautomation%2F%22&in=body
 *	There is a variety of tools to help check changes that users make (Config checking tool https://www.home-assistant.io/docs/tools/check_config/) along with others to help improve user satisfaction with the software.
 *	Overall HA makes a conscious effort to not only support but encourage community involvement with issues and making changes to the software. This effort is mostly focused on configuration and installation issues, and not as much on security issues. Though there is a section to report vulnerabilities, it is difficult to find previously patched fixes or known security issues that are being repaired. 
+
+
+### Reflection
