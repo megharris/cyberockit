@@ -217,9 +217,9 @@ Individual Contributions:
 ### Sources
 ###### [Return to Top](#requirements-for-system-security-engineering)
 
-https://community.home-assistant.io/t/home-assistant-manual-security-system-with-xiaomi-gateway-as-siren/287916
-https://community.home-assistant.io/t/editing-the-documentation-and-creating-a-pull-request-on-github/9573)
-https://www.home-assistant.io/docs/configuration/secrets/
-https://github.com/home-assistant/home-assistant.io/issues?utf8=%E2%9C%93&q=%22%2Fgetting-started%2Fautomation%2F%22&in=body
-https://www.home-assistant.io/docs/tools/check_config/
-https://www.home-assistant.io/blog/2020/10/01/hacktoberfest-2020/
+* https://community.home-assistant.io/t/home-assistant-manual-security-system-with-xiaomi-gateway-as-siren/287916
+* https://community.home-assistant.io/t/editing-the-documentation-and-creating-a-pull-request-on-github/9573)
+* https://www.home-assistant.io/docs/configuration/secrets/
+* https://github.com/home-assistant/home-assistant.io/issues?utf8=%E2%9C%93&q=%22%2Fgetting-started%2Fautomation%2F%22&in=body
+* https://www.home-assistant.io/docs/tools/check_config/
+* https://www.home-assistant.io/blog/2020/10/01/hacktoberfest-2020/
