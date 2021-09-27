@@ -3,7 +3,7 @@
 ###
 ###
 ### [Attack by Installing Add-Ons](#case-3)
-### [ffff](#case-4)
+### [IoT Device Risk](#case-4)
 ###
 
 
@@ -23,6 +23,7 @@ Ryan proceeds in building a harmful application and coats it inside a good looki
 
 ## Case 4 
 ### IoT Device 
+### Use Case
 
 Sherri owns a small hazardous material processing company. The business serves multiple clients around her region and she has a warehouse space that is 
 integral to the company function. The company’s focus is on environmental protection. One of their main functions is picking up waste from high quantity 
