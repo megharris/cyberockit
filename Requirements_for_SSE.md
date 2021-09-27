@@ -262,6 +262,8 @@ Individual Contributions:
 * Noah Zetocha: Use case 4, attend team meetings and discuss scenarios
 * Dylan Redden: Use case 5, prepare security related configuration and installation issues, attend team meetings and discuss scenarios
 
+NOTE: Draft files were uploaded in the [images folder](https://github.com/megharris/cyberockit/tree/main/images) by each team member before being compiled here.
+
 ### Sources
 ###### [Return to Top](#requirements-for-system-security-engineering)
 
