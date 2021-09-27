@@ -9,7 +9,7 @@
 ### [Abuse of System](#case-5)
 
 ## PART 2 LINK
-### [Security Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)
+### [Security Related Configuration and Installation Issues](#part-2)
 
 ## PART 1
 
