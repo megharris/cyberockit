@@ -1,15 +1,16 @@
 # Requirements for System Security Engineering
 
 ## Index
-
-### [Part 1 Remote Access](#case-1)
-### [Part 1 Brute Force Password Attack](#case-2)
-### [Part 1 Attack by Installing Add-Ons](#case-3)
-### [Part 1 IoT Device Risk](#case-4)
-### [Part 1 Abuse of System](#case-5)
-### [Part 2 Security Related Configuration and Installation Issues](#part-2)
-### [Part 2 Reflection](#reflection)
-### [Sources](#sources)
+### [Part 1](#part-1)
+* **[Remote Access](#case-1)**
+* **[Brute Force Password Attack](#case-2)**
+* **[Attack by Installing Add-Ons](#case-3)**
+* **[IoT Device Risk](#case-4)**
+* **[Abuse of System](#case-5)**
+### [Part 2](#part-2)
+* **[Security Related Configuration and Installation Issues](#part-2)**
+* **[Reflection](#reflection)**
+* **[Sources](#sources)**
 
 ## PART 1
 
@@ -74,11 +75,16 @@ Mr Reynolds has an antique shop that houses some rare antiques from time to time
 
 #### Misuse Case
 Ryan the hacker creates a harmful add-on to upload in the supervisor system. By careful observation, he knew if the add-on is about something that would enhance the security Mr Reynolds will definitely install the application without a second thought. 
+
 Ryan proceeds in building a harmful application and coats it inside a good looking application that would interest Mr Reynolds. He tries to get installed and control the home assistant system through his security application and steal the antique item easily. However, he faces a verification system that HA uses to verify add-ons before they are integrated into the main system of add-ons. Even after verification, clever malware can be hidden so manual testing is suggested for future HA add-ons. If Ryan fails to get into the HA supervisor he plans to send the link to an unauthorized download of security software by prompting Mr Reynolds with a real like website and everything. When Mr Reynolds will download from that application HA should detect its attempt to integrate with the system and warn the user to reconsider installing any unauthorized file. In this regard, it is slightly difficult because add-ons cannot run in the HA unless it is installed through the supervisor system. 
 
 #### Prevention and Security Requirement
 
-NEED TO FILL THIS IN!!!!!
+Few security features to keep the supervisor system secure from attackers are as follows:
+1.	Manual add-on verification 
+2.	Community push verification 
+3.	Scan all the other applications in the system where HA is running and warn users of harmful ones
+4.	Runs automatic virus scan before download 
 
 ![Attack by Installing Harmful Add-Ons](https://github.com/megharris/cyberockit/blob/main/images/AntiqueOwnerAddOnInstallation-2.png)
 
@@ -178,6 +184,9 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 *	At the bottom of all the instruction pages on the HA website, there is a call to action about writing documentation and helping others. There are links to the Blog, Github, and other parts of the instructions section, with the blog page being the liveliest. The Github page has a lot more direct code tweaking though. https://github.com/home-assistant/home-assistant.io/issues?utf8=%E2%9C%93&q=%22%2Fgetting-started%2Fautomation%2F%22&in=body
 *	There is a variety of tools to help check changes that users make (Config checking tool https://www.home-assistant.io/docs/tools/check_config/) along with others to help improve user satisfaction with the software.
 *	Overall HA makes a conscious effort to not only support but encourage community involvement with issues and making changes to the software. This effort is mostly focused on configuration and installation issues, and not as much on security issues. Though there is a section to report vulnerabilities, it is difficult to find previously patched fixes or known security issues that are being repaired. 
+*  HA participated in [Hactoberfest](https://www.home-assistant.io/blog/2020/10/01/hacktoberfest-2020/) where they made a contest for contributors to find bugs and security flaws in their system. With the help of the contest they tried to use the open source community to run tests and detect security flaws, fix documentation and other problems which gets detected by the community
+*  HA also encourage contributors to review each other’s pull requests before so their internal team can find more about the request from the get-go and makes their consideration to add or deny the requests easier.
+
 
 
 ### Reflection
