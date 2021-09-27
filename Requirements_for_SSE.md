@@ -38,7 +38,19 @@ Max can use security features to keep his system secure from attackers. Few such
 **Figure: Use/Misuse for Remote Access Attack**
 
 #### Alignment of Security Requirements with Advertised Features
-
+* Use secure application such as NabuCase and DuckDNS for remote access: Yes
+     * https://www.home-assistant.io/integrations/duckdns/
+* Make sure to have terminal/SSH on the OS of Home assistance: Yes
+     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
+     * https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
+* Use VPN Tunneling: Yes
+     * https://www.home-assistant.io/docs/configuration/securing/#remote-access
+     * https://pivpn.io/
+* Port forwarding should be done on TCP protocol: Yes
+     * https://www.home-assistant.io/integrations/fritz/#port-forward
+* Enable IP Ban while configuration of system: Yes
+     * https://www.home-assistant.io/integrations/http#ip-filtering-and-banning
+* Use strong password
 
 
 ### Case 2
