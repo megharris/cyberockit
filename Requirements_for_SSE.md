@@ -87,7 +87,7 @@ In order to prevent a brute force password attack from being successful, Home As
 #### Alignment of Security Requirements with Advertised Features
 * Logger: Yes
      * https://www.home-assistant.io/docs/mqtt/logging/
-* Logger-specific credentials: Possibly
+* Logger-specific credentials: Occasionally
      * https://www.home-assistant.io/docs/authentication/providers/
 * Account lockout: Yes
      * https://www.home-assistant.io/docs/locked_out/#forgot-password
