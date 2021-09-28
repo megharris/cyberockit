@@ -1,14 +1,14 @@
 # Requirements for System Security Engineering
 
 ## Index
-### [SECTION ONE](#section-one)
+### SECTION ONE
 * **[Remote Access](#case-1)**
 * **[Brute Force Password Attack](#case-2)**
 * **[Attack by Installing Add-Ons](#case-3)**
 * **[IoT Device Risk](#case-4)**
 * **[Abuse of System](#case-5)**
 
-### [SECTION TWO](#section-two)
+### SECTION TWO
 * **[Security Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)**
 * **[Reflection](#reflection)**
 * **[Sources](#sources)**
