@@ -7,7 +7,8 @@
 * **[Attack by Installing Add-Ons](#case-3)**
 * **[IoT Device Risk](#case-4)**
 * **[Abuse of System](#case-5)**
-### [PART TWO](#part-two)
+
+### [PART TWO](#section-two)
 * **[Security Related Configuration and Installation Issues](#security-related-configuration-and-installation-issues)**
 * **[Reflection](#reflection)**
 * **[Sources](#sources)**
@@ -239,7 +240,7 @@ No – there is not really a part of the documentation that covers rogue IoT uni
 
 
 
-## PART TWO
+## SECTION TWO
 
 ### Security Related Configuration and Installation Issues
 ###### [Return to Top](#requirements-for-system-security-engineering)
