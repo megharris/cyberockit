@@ -85,7 +85,7 @@ In order to prevent a brute force password attack from being successful, Home As
 
 #### Alignment of Security Requirements with Advertised Features
 * Logger: Yes
-     *https://www.home-assistant.io/docs/mqtt/logging/
+     * https://www.home-assistant.io/docs/mqtt/logging/
 * Logger-specific credentials: Possibly
      * https://www.home-assistant.io/docs/authentication/providers/
 * Account lockout: No
@@ -124,11 +124,11 @@ Few security features to keep the supervisor system secure from attackers are as
 
 #### Alignment of Security Requirements with Advertised Features
 * Verification of Add-ons: Yes
-     *https://www.home-assistant.io/addons/
+     * https://www.home-assistant.io/addons/
 * Manual Verification: Performed by Open Source Community
 * Scan application before Installation: No
 * Prevent unauthorized add-on to control HA: Yes after Update
-     *https://www.home-assistant.io/blog/2021/01/22/security-disclosure/
+     * https://www.home-assistant.io/blog/2021/01/22/security-disclosure/
 
 
 ### Case 4 
