@@ -229,7 +229,7 @@ from HA to the IoT devices.
 
 No – there is not really a part of the documentation that covers rogue IoT units. There is a section on duplicate entities but if (as is in the misuse case) there is a malicious user, then the system does not check that the devices are listed are the same ones that were originally configured. The below link is as close that I can find to a duplicate or rogue device, and it just is looking at log entries. https://www.home-assistant.io/integrations/knx/#duplicate-entities
 
-![misuse](https://github.com/megharris/cyberockit/blob/main/images/abuse%20of%20system%20v2.PNG)
+![misuse](https://github.com/megharris/cyberockit/blob/main/images/abuseofsystem.png)
 
 **Figure: Use/Misuse for Abuse of System Device**
 
