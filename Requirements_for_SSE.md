@@ -123,7 +123,12 @@ Few security features to keep the supervisor system secure from attackers are as
 **Figure: Use/Misuse for Harmful Add-On attack**
 
 #### Alignment of Security Requirements with Advertised Features
-
+* Verification of Add-ons: Yes
+     *https://www.home-assistant.io/addons/
+* Manual Verification: Performed by Open Source Community
+* Scan application before Installation: No
+* Prevent unauthorized add-on to control HA: Yes after Update
+     *https://www.home-assistant.io/blog/2021/01/22/security-disclosure/
 
 
 ### Case 4 
