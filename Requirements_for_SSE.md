@@ -89,7 +89,8 @@ In order to prevent a brute force password attack from being successful, Home As
      * https://www.home-assistant.io/docs/mqtt/logging/
 * Logger-specific credentials: Possibly
      * https://www.home-assistant.io/docs/authentication/providers/
-* Account lockout: No
+* Account lockout: Yes
+     * https://www.home-assistant.io/docs/locked_out/
 * Anomaly detection: No
 * Multifactor authentication: Yes
      * https://www.home-assistant.io/docs/authentication/multi-factor-auth/
