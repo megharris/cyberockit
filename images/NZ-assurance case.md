@@ -8,4 +8,7 @@
 I think I may remove the middle R5 subclaim
 ![assuranceCaseNZ_V3](https://user-images.githubusercontent.com/63809979/136419588-b99552e3-f18a-4a2b-bf58-4609601b0ce9.png)
 
+# Version 4
+![assuranceCaseNZ_V4](https://user-images.githubusercontent.com/63809979/136455787-499a11ec-7bd7-437e-8fbf-3b519638ba6d.png)
+
 ## Feedback
