@@ -1,5 +1,24 @@
 ![Assurance Case Jay](https://github.com/megharris/cyberockit/blob/main/images/AssuranceCaseByJayVersion2.png)
 Evidence for Assurance Case - Jay
+Evidence alignment
+E1: DuckDNS is introduced in HA 0.55 
+	Port-forwarding is one of the best way for remote access. HTTPS encryption is required for secured port-forwarding. DuckDNS provides HTTPS encryption and single URL to access HA remotely.
+https://www.home-assistant.io/integrations/duckdns/
+https://github.com/home-assistant/core/tree/dev/homeassistant/components/duckdns
+E2: Configuration documentation for remote access providing SSH manual
+
+	SSH provides more privacy and security. Using SSH/Terminal is beneficial to Undo the changes which were done by mistake.
+https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
+https://www.home-assistant.io/docs/configuration/securing/#remote-access
+E3: Configuration documentation for VPN
+
+	Using VPN provides the encryption for the links between devices and network. Documentation provides the correct way to implement it. 
+https://www.home-assistant.io/docs/configuration/securing/#remote-access
+https://pivpn.io/
+E4: IP filtering and banning documentation explains the concept of IP address filtering and banning them when hacker tries to attempt different passwords for several times.
+https://www.home-assistant.io/integrations/http#ip-filtering-and-banning
+E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). This should be set to enabled by default. Brute force attacks can be prevented by enabling Ip ban. Set Ip_ban_enabled to true and maximum number of attempts. After first ban, ip_ban.yaml file is created in configuration folder. Notification to HA is also sent.
+
 
 
 ![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202.png)
