@@ -14,7 +14,9 @@ I think I may remove the middle R5 subclaim
 # Version 5
 ![assuranceCaseNZ_V5](https://user-images.githubusercontent.com/63809979/136470792-e6c4c125-b652-4b83-962c-c02f7500cb2b.png)
 
-## Feedback
+# Version 6
+![assuranceCaseNZ_V6](https://user-images.githubusercontent.com/63809979/136629660-223cfe6f-ce9c-43a0-919d-822f7a2dc13a.png)
+
 
 
 ## Evidence for Assurance Case
@@ -26,4 +28,4 @@ From sub-claim 3 the other rebuttal R6, asserts that notification may not occur 
 
 
 # Stuff for part 2
-Given the issues of mis-users trying to control user IoT devices, there is security enabled for some of the issues raised. Alert integrations can be included as seen [here](https://www.home-assistant.io/integrations/alert/). Alerts can be set up in various capacities to alert the Home Assistant owners to changes in the state of their location. Certain integrations have lost connection alerts and settings, that provide a reasonable process of alerting and then trying to reconnect to the IoT device. This can be seen in the Homematic integration for [lost connection](https://www.home-assistant.io/integrations/homematic/#detecting-lost-connections). Finally there is some documentation on multiple Home Assistant instances communicating via MQTT, as available in a question [here](https://community.home-assistant.io/t/two-ha-instances-how-to-communicate-between-them/30877). There remains some uncertainty whether or not a misuser could then use another Home Assistant instance to communicate with IoT devices, though this would depend on the mis-user being on premises. The conversation on multiple instances is available [here](https://github.com/home-assistant/architecture/issues/246).
+Given the issues of mis-users trying to control user IoT devices, there is security enabled for some of the issues raised. Alert integrations can be included as seen [here](https://www.home-assistant.io/integrations/alert/). Alerts can be set up in various capacities to alert the Home Assistant owners to changes in the state of their location. Certain integrations have lost connection alerts and settings, that provide a reasonable process of alerting and then trying to reconnect to the IoT device. This can be seen in the Homematic integration for [lost connection](https://www.home-assistant.io/integrations/homematic/#detecting-lost-connections). Finally there is some documentation on multiple Home Assistant instances communicating via MQTT, as available in a question [here](https://community.home-assistant.io/t/two-ha-instances-how-to-communicate-between-them/30877). There remains some uncertainty whether or not a misuser could then use another Home Assistant instance to communicate with IoT devices, though this would depend on the mis-user being on premises. Given the communication has to be set up by the user and it is not automatic raises some issues if the mis-user is at the location. The conversation on multiple instances is available [here](https://github.com/home-assistant/architecture/issues/246).
