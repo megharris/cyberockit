@@ -1,3 +1,4 @@
+[Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV5.drawio.png)
 
 Evidence for Assurance Case – Dylan
 E1: https://www.home-assistant.io/integrations/nest/#climate
