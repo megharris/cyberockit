@@ -1,3 +1,19 @@
+![Assurance Case Jay](https://github.com/megharris/cyberockit/blob/main/images/AssuranceCaseByJayVersion2.png)
+Evidence for Assurance Case - Jay
+
+
+![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202.png)
+Evidence for Assurance Case - Meg
+
+
+![Assurance Case Noah](https://github.com/megharris/cyberockit/blob/main/images/NZ-assurance%20case.md)
+Evidence for Assurance Case - Noah
+
+
+![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_Add_On_Assurance%20Case.png)
+Evidence for Assurance Case - Shifat
+
+
 ![Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV5.drawio.png)
 
 Evidence for Assurance Case – Dylan
