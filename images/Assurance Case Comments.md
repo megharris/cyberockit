@@ -26,3 +26,13 @@ Add comments here for each other's assurance cases.
     In Sub-Claim C4 take out "mostly". It is too informal, and is ambiguous. You supply evidence after the claim to show that it is not ambiguous. 
     Sub-Claim C3 needs to be branched out to two or three different Sub-Claims. With three conjections separating three points in the claim, each point needs to have its own claim. The Evidence supporting each claim can be the same, but branching them out is what Dr.G stated he wanted.
     Great job on the case so far! The line of reasoning is sound, the graph just needs a few struncture tweeks. 
+
+**Jay's Comments** 
+<br/> Meg –
+
+1.	You can reword top level claim. Format should be ‘application’ ‘does something’ ‘to something’. For example – HA provides secure user profiles. 
+2.	Inference rule should start with ‘if’. For example – If HA ‘does something’ then ‘something can be inferred’.
+3.	Check undercut C1 and Subclaim C6. It is from tweety example of Dr. Gandhi.
+4.	Spelling correction of ‘assistance’ in subclaim C3.
+5.	Sub-claim C2 – ‘in second way’ can be dropped as the sentence would make same sense after that.
+6.	Rebuttal R3, subclaim C6, subclaim C5 – avoid use of ‘and’.
