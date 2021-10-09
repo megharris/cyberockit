@@ -22,28 +22,28 @@
 
 #### Evidence for Assurance Case - Jay
 
-**E1: DuckDNS is introduced in HA 0.55** 
+E1: DuckDNS is introduced in HA 0.55
 Port-forwarding is one of the best way for remote access. HTTPS encryption is required for secured port-forwarding. DuckDNS provides HTTPS encryption and single URL to access HA remotely.
 
-<https://www.home-assistant.io/integrations/duckdns/> 
-<https://github.com/home-assistant/core/tree/dev/homeassistant/components/duckdns> 
+https://www.home-assistant.io/integrations/duckdns/ 
+https://github.com/home-assistant/core/tree/dev/homeassistant/components/duckdns
 
-**E2: Configuration documentation for remote access providing SSH manual**
+E2: Configuration documentation for remote access providing SSH manual
 SSH provides more privacy and security. Using SSH/Terminal is beneficial to Undo the changes which were done by mistake.
 
 https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
 https://www.home-assistant.io/docs/configuration/securing/#remote-access 
 
-**E3: Configuration documentation for VPN**
+E3: Configuration documentation for VPN
 Using VPN provides the encryption for the links between devices and network. Documentation provides the correct way to implement it.
 
 https://www.home-assistant.io/docs/configuration/securing/#remote-access. For more infromation [click here](https://pivpn.io/)
 
-**E4: IP filtering and banning documentation explains the concept of IP address filtering and banning them when hacker tries to attempt different passwords for several times.**
+E4: IP filtering and banning documentation explains the concept of IP address filtering and banning them when hacker tries to attempt different passwords for several times.
 
 https://www.home-assistant.io/integrations/http#ip-filtering-and-banning 
 
-**E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). This should be set to enabled by default. Brute force attacks can be prevented by enabling Ip ban. Set Ip_ban_enabled to true and maximum number of attempts. After first ban, ip_ban.yaml file is created in configuration folder. Notification to HA is also sent.**
+E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). This should be set to enabled by default. Brute force attacks can be prevented by enabling Ip ban. Set Ip_ban_enabled to true and maximum number of attempts. After first ban, ip_ban.yaml file is created in configuration folder. Notification to HA is also sent.
 
 ### Case 2
 #### Brute Force Password Attack
@@ -56,7 +56,7 @@ https://www.home-assistant.io/integrations/http#ip-filtering-and-banning
 #### Attack by Installing Harmful Add-Ons
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/jjj.png)
+![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation.png)
 #### Evidence for Assurance Case - Shifat
 
 E1: Security Ratings on Add-Ons
@@ -74,7 +74,7 @@ The function is said to be available on HA by default. It talks about running th
 #### IoT Device 
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Noah](https://github.com/megharris/cyberockit/blob/main/images/NZ-assurance%20case.md)
+![Assurance Case Noah](https://user-images.githubusercontent.com/63809979/136629660-223cfe6f-ce9c-43a0-919d-822f7a2dc13a.png)
 #### Evidence for Assurance Case - Noah
 
 ### Case 5
