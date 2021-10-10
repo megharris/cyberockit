@@ -83,6 +83,7 @@ Overall it's looking great everyone!
 6. Evidence has to be nouns only. So E1: "Nest Documentation"
 7. e2: I think this is a noun but i have a gut feeling he'll tell us it's too verbose. Maybe shorten it to: "source code documentation"
 8. c4: address is misspelled.
+9. UM1: I'd add "Unless" to the beginning of the undermine.
 
 <br/> Jay - 
 
