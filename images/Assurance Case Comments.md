@@ -89,6 +89,7 @@ Overall it's looking great everyone!
 1. I don't think the top claim should be so absolute, per our meeting with Dr. G on Thursday but I'm having trouble rewording it. Any ideas?
 2. E1: reword to "DuckDNS" - there's no need to mention when it was introduced. It's there now. 
 3. e5: reword to "IP_bans.yaml configuration file"
+4. UM1: Jay, I think your undermine is another subclaim. You want to show that the evidence E4 is in some way flawed. Ie, the ban doesn't work when.... and fill in the blank.
 
 
 <br/> Shifat -
