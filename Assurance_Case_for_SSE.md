@@ -22,19 +22,19 @@
 
 #### Evidence for Assurance Case - Jay
 
-E1: DuckDNS is introduced in HA 0.55
+E1: DuckDNS is introduced in HA 0.55:
 Port-forwarding is one of the best way for remote access. HTTPS encryption is required for secured port-forwarding. DuckDNS provides HTTPS encryption and single URL to access HA remotely.
 
 https://www.home-assistant.io/integrations/duckdns/ 
 https://github.com/home-assistant/core/tree/dev/homeassistant/components/duckdns
 
-E2: Configuration documentation for remote access providing SSH manual
+E2: Configuration documentation for remote access providing SSH manual:
 SSH provides more privacy and security. Using SSH/Terminal is beneficial to Undo the changes which were done by mistake.
 
 https://www.home-assistant.io/blog/2017/11/02/secure-shell-tunnel/
 https://www.home-assistant.io/docs/configuration/securing/#remote-access 
 
-E3: Configuration documentation for VPN
+E3: Configuration documentation for VPN:
 Using VPN provides the encryption for the links between devices and network. Documentation provides the correct way to implement it.
 
 https://www.home-assistant.io/docs/configuration/securing/#remote-access. For more infromation [click here](https://pivpn.io/)
@@ -52,26 +52,26 @@ E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). T
 ![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V6.png)
 #### Evidence for Assurance Case - Meg
 
-E1: Past User Experiences
+E1: Past User Experiences:
 Users have not experienced access attacks using HTTP Response Body Manipulation. The evidence of this is the lack of claims or complaints from users.
 
-E2: HA TOTP Policy
+E2: HA TOTP Policy:
 HA's configuration policy allows the user to enable time-based one-time password (TOTP) with an expiration time of 30 seconds.
 [HA TOTP Policy](https://www.home-assistant.io/docs/authentication/multi-factor-auth/#setting-up-totp)
 
-E3: OTP Policy
+E3: OTP Policy:
 HA's configuration policy allows the user to enable time-based one-time password (TOTP) that is invalidated after one use and has an expiration time of 30 seconds.
 [HA OTP Policy](https://www.home-assistant.io/integrations/otp/)
 
-E4: Configuration Policy
+E4: Configuration Policy:
 HA's configuration policy has a counter integration does not make the counter variable accessible to the client side.
 [Counter Integration](https://www.home-assistant.io/integrations/counter/)
 
-E5: HA Website Prefix
+E5: HA Website Prefix:
 HA's website prefix has https:// indicating use of SSL/TSL encryption.
 https://www.home-assistant.io/
 
-E6: Configuration Policy
+E6: Configuration Policy:
 There is no evidence that HA does not rely on the response body returned by the server or that the system validates against response manipulation. This is certainly one suggestion we could make to HA. 
 
 
