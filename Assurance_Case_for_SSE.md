@@ -49,7 +49,7 @@ E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). T
 #### Brute Force Password Attack
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V6.png)
+![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V7.png)
 #### Evidence for Assurance Case - Meg
 
 E1: Past User Experiences:
