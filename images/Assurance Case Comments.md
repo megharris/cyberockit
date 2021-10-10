@@ -36,3 +36,10 @@ Add comments here for each other's assurance cases.
 4.	Spelling correction of ‘assistance’ in subclaim C3.
 5.	Sub-claim C2 – ‘in second way’ can be dropped as the sentence would make same sense after that.
 6.	Rebuttal R3, subclaim C6, subclaim C5 – avoid use of ‘and’.
+
+
+## Noah's Comments
+1. It looks like we may want to establish how we refer to Home Assistant as a group. Some say just HA or Home Assistance rather than Assistant. If we decide how to refer to it as a group, it will look more uniform. 
+2. Another group thing that we can look at, some are numbering each item from right to left or bottom to up. In Dr. G's example, it looks like the numbering goes from left to right and is generally bottom down as you go along, so we could unify that as a group too.
+
+Overall it's looking great everyone!
