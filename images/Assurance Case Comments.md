@@ -94,3 +94,6 @@ Overall it's looking great everyone!
 <br/> Shifat -
 
 1. GOOD!!! I don't have any comments - I could obviously be missing things but it looks logical to me!
+
+**Shifat's Comments**
+I have read through the previous comments and all the questions I had, was already mentioned. Other than that it all looks good to me.
