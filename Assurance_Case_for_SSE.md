@@ -49,25 +49,31 @@ E5: For evidence 5 IP_bans.yaml shows the status of Ip ban (enabled/disabled). T
 #### Brute Force Password Attack
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V4.png)
+![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V6.png)
 #### Evidence for Assurance Case - Meg
 
-E1: Configuration Policy
-There is no evidence that HA does not rely on the response body returned by the server or that the system validates against response manipulation. This is certainly one suggestion we could make to HA. 
+E1: Past User Experiences
+Users have not experienced access attacks using HTTP Response Body Manipulation. The evidence of this is the lack of claims or complaints from users.
 
 E2: HA TOTP Policy
-HA's configuration policy allows the user to enable time-based one-time password (TOTP) that is invalidated after one use and the expiration time is 30 seconds.
-[HA OTP Policy](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)
+HA's configuration policy allows the user to enable time-based one-time password (TOTP) with an expiration time of 30 seconds.
+[HA TOTP Policy](https://www.home-assistant.io/docs/authentication/multi-factor-auth/#setting-up-totp)
 
-E3: Configuration Policy
+E3: OTP Policy
+HA's configuration policy allows the user to enable time-based one-time password (TOTP) that is invalidated after one use and has an expiration time of 30 seconds.
+[HA OTP Policy](https://www.home-assistant.io/integrations/otp/)
+
+E4: Configuration Policy
 HA's configuration policy has a counter integration does not make the counter variable accessible to the client side.
 [Counter Integration](https://www.home-assistant.io/integrations/counter/)
 
-E4: HA Website Prefix
+E5: HA Website Prefix
 HA's website prefix has https:// indicating use of SSL/TSL encryption.
 https://www.home-assistant.io/
 
-E5: 
+E6: Configuration Policy
+There is no evidence that HA does not rely on the response body returned by the server or that the system validates against response manipulation. This is certainly one suggestion we could make to HA. 
+
 
 ### Case 3
 #### Attack by Installing Harmful Add-Ons
