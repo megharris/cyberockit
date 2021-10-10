@@ -32,11 +32,16 @@ Add comments here for each other's assurance cases.
 
 1.	You can reword top level claim. Format should be ‘application’ ‘does something’ ‘to something’. For example – HA provides secure user profiles. 
      1. Meg's response: per Dr. G, top claim can't be so absolute. I have changed it to say "HA minimizes risk of misusers accessing valid-user profiles."
-3.	Inference rule should start with ‘if’. For example – If HA ‘does something’ then ‘something can be inferred’.
-4.	Check undercut C1 and Subclaim C6. It is from tweety example of Dr. Gandhi.
-5.	Spelling correction of ‘assistance’ in subclaim C3.
-6.	Sub-claim C2 – ‘in second way’ can be dropped as the sentence would make same sense after that.
+2.	Inference rule should start with ‘if’. For example – If HA ‘does something’ then ‘something can be inferred’.
+     1. Meg's response: I've corrected this. As mentioned when uploading, I was not finished with the inference and still need to think on it. That's why there were still tweety references in it. Thank you.
+3.	Check undercut C1 and Subclaim C6. It is from tweety example of Dr. Gandhi.
+     1. Meg's response: Again, this was not completed at the time of upload.
+4.	Spelling correction of ‘assistance’ in subclaim C3.
+     1. Meg's response: corrected, thank you.
+5.	Sub-claim C2 – ‘in second way’ can be dropped as the sentence would make same sense after that.
+     1. Meg's response: changed to "with multiple methods" - trying to show that MFA is more than one authentication method. Thank you.
 7.	Rebuttal R3, subclaim C6, subclaim C5 – avoid use of ‘and’.
+     1. Meg's response: THANK YOU! Updated all.
 
 
 **Noah's Comments**
