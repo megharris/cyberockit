@@ -40,6 +40,6 @@ Add comments here for each other's assurance cases.
 
 **Noah's Comments**
 1. It looks like we may want to establish how we refer to Home Assistant as a group. Some say just HA or Home Assistance rather than Assistant. If we decide how to refer to it as a group, it will look more uniform. 
-2. Another group thing that we can look at, some are numbering each item from right to left or bottom to up. In Dr. G's example, it looks like the numbering goes from left to right and is generally bottom down as you go along, so we could unify that as a group too.
+2. Another group thing that we can look at, some are numbering each item from right to left or bottom to up. In Dr. G's example, it looks like the numbering goes from left to right and is generally bottom down as you go along, so we could unify that as a group too. We'll just have to be mindful of how this effects the evidence section.
 
 Overall it's looking great everyone!
