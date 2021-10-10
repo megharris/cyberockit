@@ -10,11 +10,17 @@ Add comments here for each other's assurance cases.
     
  2. Meg's Assurance Case - 
     Need to remove the string from Inference Rule IR1 down, as it is from Dr. G's original sample.
+         Meg's response: Just uploaded early so team could review the bulk of the project, I still had to finish this. Thank you.
     Rebuttal R3 has a conjunction in it. Remove the "and expiration time is too long" and make a new Rebuttal. This is the  same for Sub-Claim C6.
+         Meg's response: Updated. THANK YOU!
     Sub-Claim C5 also has a conjunction in it. Remove "and validates against response manipulation" and either fork the line or remove it. 
+         Meg's response: Updated. THANK YOU!
     All three undermines have the same UM number (UM1)
+         Meg's response: Updated. THANK YOU!
     I dont know if you need to include all three undermines as the evidence they are undermining is already hard-coded into HA. Since all of them have the same answer and final evidence, the ends of the strings look redundant. 
+         Meg's response: Agreed. REmoved all but 1. Thank you!
     This is a very well thought out assurance case! Good job!
+         Meg's response: Thanks, Dylan!
     
  3. Noah's Assurance Case - (comments are for V5)
     In Sub-Claim C9 take out "should", it adds ambiguity and is informal. The evidence is given below it to show that this is not an ambiguous statement.
