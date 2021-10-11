@@ -121,7 +121,7 @@ E5 and E6: Evidence 5 and 6 discuss lost connection alerts, and automatic reconn
 #### Abuse of System
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV5.drawio.png)
+![Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV7.drawio.png)
 
 #### Evidence for Assurance Case – Dylan
 
