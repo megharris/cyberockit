@@ -79,7 +79,7 @@ There is no evidence that HA does not rely on the response body returned by the 
 #### Attack by Installing Harmful Add-Ons
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation_v2.png)
+![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation_v3.png)
 #### Evidence for Assurance Case - Shifat
 
 E1: Security Ratings on Add-Ons
