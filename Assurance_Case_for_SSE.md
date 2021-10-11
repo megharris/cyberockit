@@ -97,7 +97,7 @@ The function is said to be available on HA by default. It talks about running th
 #### IoT Device 
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Noah](https://user-images.githubusercontent.com/63809979/136629660-223cfe6f-ce9c-43a0-919d-822f7a2dc13a.png)
+![Assurance Case Noah](![assuranceCaseNZ_V7](https://user-images.githubusercontent.com/63809979/136719199-c01f6369-f5b8-446b-a210-1dfe355c642c.png))
 #### Evidence for Assurance Case - Noah
 E1 and E2: As discussed in more detail in the other assurance cases, basic password access to the interface and multi-factor authentication provides adequate protection for mis-use of IoT device control in the user interface. 
 
