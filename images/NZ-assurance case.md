@@ -17,6 +17,9 @@ I think I may remove the middle R5 subclaim
 # Version 6
 ![assuranceCaseNZ_V6](https://user-images.githubusercontent.com/63809979/136629660-223cfe6f-ce9c-43a0-919d-822f7a2dc13a.png)
 
+# Version 7
+![assuranceCaseNZ_V7](https://user-images.githubusercontent.com/63809979/136719199-c01f6369-f5b8-446b-a210-1dfe355c642c.png)
+
 
 
 ## Evidence for Assurance Case

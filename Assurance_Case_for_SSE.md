@@ -79,25 +79,35 @@ There is no evidence that HA does not rely on the response body returned by the 
 #### Attack by Installing Harmful Add-Ons
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation.png)
+![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation_v3.png)
 #### Evidence for Assurance Case - Shifat
 
 E1: Security Ratings on Add-Ons
+
 The security documentation of Add-Ons specifies that all available add-ons from open source community are tested and graded for security. The users are advised to only install lower graded add-ons if they trust the source. This grading is visible to anyone downloading the add-ons directly from the supervisor store. 
 [Add-On Security Documentation](https://developers.home-assistant.io/docs/add-ons/security)
 
 E2: Verification Procedure Documentation
+
 Although the previous documentation says that an add-on with a grade of 6 is harmless for anyone to download. There is no available documentation which shows how HA actually performs this verification before making them available for people to download. 
 
 E3: Harmful Add-On Attack Test Results
+
 The function is said to be available on HA by default. It talks about running the add-ons in a protection enable mode which stops them from getting any unauthorized control over the system. [Add-On Security Documentation](https://developers.home-assistant.io/docs/add-ons/security). However, no documentation for conducted tests are available which clearly shows the available function to be sufficient in stopping add-ons from getting control.
 
+E4: Add-On Compatibility Documents
+
+The following page [Install addons on the docker without supervisor](https://community.home-assistant.io/t/can-i-install-addons-on-the-docker-installation-not-supervised/281022) provides an official answer to installing add-ons from unauthorized sources. According to them, the add-ons will not work with HA if it is installed through other methods. However, a users in Reddit talks about a way to install and run addons using their own docker containers [link](https://www.reddit.com/r/homeassistant/comments/imv0yc/home_assistant_addons_without_supervisor/), which takes us to evidence 5.
+
+E5: Add-On Installation Guide
+
+HA provides more answers in their [Addon installation Q/A](https://community.home-assistant.io/t/ha-docker-container-installing-addons/305947). Here, they answer that a user has to manage their own containerized applications if they choose to run add-ons using their own docker container. Without supervisor they will not be able to access the official add-on store as well. 
 
 ### Case 4 
 #### IoT Device 
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Noah](https://user-images.githubusercontent.com/63809979/136629660-223cfe6f-ce9c-43a0-919d-822f7a2dc13a.png)
+![assuranceCaseNZ_V7](https://user-images.githubusercontent.com/63809979/136719199-c01f6369-f5b8-446b-a210-1dfe355c642c.png)
 #### Evidence for Assurance Case - Noah
 E1 and E2: As discussed in more detail in the other assurance cases, basic password access to the interface and multi-factor authentication provides adequate protection for mis-use of IoT device control in the user interface. 
 
@@ -111,7 +121,7 @@ E5 and E6: Evidence 5 and 6 discuss lost connection alerts, and automatic reconn
 #### Abuse of System
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
 
-![Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV5.drawio.png)
+![Assurance Case Dylan](https://github.com/megharris/cyberockit/blob/main/images/DylanAssuranceCaseV7.drawio.png)
 
 #### Evidence for Assurance Case – Dylan
 
