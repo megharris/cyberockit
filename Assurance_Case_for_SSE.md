@@ -52,27 +52,21 @@ E5: For evidence 5, Current system can add VPN IP address blocking as hacker can
 ![Assurance Case Meg](https://github.com/megharris/cyberockit/blob/main/images/Assurance%20Case%202%20V7.png)
 #### Evidence for Assurance Case - Meg
 
-E1: Past User Experiences:
-Users have not experienced access attacks using HTTP Response Body Manipulation. The evidence of this is the lack of claims or complaints from users.
+E1: Users have not experienced access attacks using HTTP Response Body Manipulation. The evidence of this is the lack of claims or complaints from users.
 
-E2: HA TOTP Policy:
-HA's configuration policy allows the user to enable time-based one-time password (TOTP) with an expiration time of 30 seconds.
+E2: HA's configuration policy allows the user to enable time-based one-time password (TOTP) with an expiration time of 30 seconds.
 [HA TOTP Policy](https://www.home-assistant.io/docs/authentication/multi-factor-auth/#setting-up-totp)
 
-E3: OTP Policy:
-HA's configuration policy allows the user to enable time-based one-time password (TOTP) that is invalidated after one use and has an expiration time of 30 seconds.
+E3: HA's configuration policy allows the user to enable time-based one-time password (TOTP) that is invalidated after one use and has an expiration time of 30 seconds.
 [HA OTP Policy](https://www.home-assistant.io/integrations/otp/)
 
-E4: Configuration Policy:
-HA's configuration policy has a counter integration does not make the counter variable accessible to the client side.
+E4: HA's configuration policy has a counter integration does not make the counter variable accessible to the client side.
 [Counter Integration](https://www.home-assistant.io/integrations/counter/)
 
-E5: HA Website Prefix:
-HA's website prefix has https:// indicating use of SSL/TSL encryption.
+E5: HA's website prefix has https:// indicating use of SSL/TSL encryption.
 https://www.home-assistant.io/
 
-E6: Configuration Policy:
-There is no evidence that HA does not rely on the response body returned by the server or that the system validates against response manipulation. This is certainly one suggestion we could make to HA. 
+E6: There is no evidence that HA does not rely on the response body returned by the server or that the system validates against response manipulation. This is certainly one suggestion we could make to HA. 
 
 
 ### Case 3
@@ -82,26 +76,16 @@ There is no evidence that HA does not rely on the response body returned by the 
 ![Assurance Case Shifat](https://github.com/megharris/cyberockit/blob/main/images/updated_assurance_case_add_on_installation_v3.png)
 #### Evidence for Assurance Case - Shifat
 
-E1: Security Ratings on Add-Ons
-
-The security documentation of Add-Ons specifies that all available add-ons from open source community are tested and graded for security. The users are advised to only install lower graded add-ons if they trust the source. This grading is visible to anyone downloading the add-ons directly from the supervisor store. 
+E1: The security documentation of Add-Ons specifies that all available add-ons from open source community are tested and graded for security. The users are advised to only install lower graded add-ons if they trust the source. This grading is visible to anyone downloading the add-ons directly from the supervisor store. 
 [Add-On Security Documentation](https://developers.home-assistant.io/docs/add-ons/security)
 
-E2: Verification Procedure Documentation
+E2: Although the previous documentation says that an add-on with a grade of 6 is harmless for anyone to download. There is no available documentation which shows how HA actually performs this verification before making them available for people to download. 
 
-Although the previous documentation says that an add-on with a grade of 6 is harmless for anyone to download. There is no available documentation which shows how HA actually performs this verification before making them available for people to download. 
+E3: The function is said to be available on HA by default. It talks about running the add-ons in a protection enable mode which stops them from getting any unauthorized control over the system. [Add-On Security Documentation](https://developers.home-assistant.io/docs/add-ons/security). However, no documentation for conducted tests are available which clearly shows the available function to be sufficient in stopping add-ons from getting control.
 
-E3: Harmful Add-On Attack Test Results
+E4: The following page [Install addons on the docker without supervisor](https://community.home-assistant.io/t/can-i-install-addons-on-the-docker-installation-not-supervised/281022) provides an official answer to installing add-ons from unauthorized sources. According to them, the add-ons will not work with HA if it is installed through other methods. However, a users in Reddit talks about a way to install and run addons using their own docker containers [link](https://www.reddit.com/r/homeassistant/comments/imv0yc/home_assistant_addons_without_supervisor/), which takes us to evidence 5.
 
-The function is said to be available on HA by default. It talks about running the add-ons in a protection enable mode which stops them from getting any unauthorized control over the system. [Add-On Security Documentation](https://developers.home-assistant.io/docs/add-ons/security). However, no documentation for conducted tests are available which clearly shows the available function to be sufficient in stopping add-ons from getting control.
-
-E4: Add-On Compatibility Documents
-
-The following page [Install addons on the docker without supervisor](https://community.home-assistant.io/t/can-i-install-addons-on-the-docker-installation-not-supervised/281022) provides an official answer to installing add-ons from unauthorized sources. According to them, the add-ons will not work with HA if it is installed through other methods. However, a users in Reddit talks about a way to install and run addons using their own docker containers [link](https://www.reddit.com/r/homeassistant/comments/imv0yc/home_assistant_addons_without_supervisor/), which takes us to evidence 5.
-
-E5: Add-On Installation Guide
-
-HA provides more answers in their [Addon installation Q/A](https://community.home-assistant.io/t/ha-docker-container-installing-addons/305947). Here, they answer that a user has to manage their own containerized applications if they choose to run add-ons using their own docker container. Without supervisor they will not be able to access the official add-on store as well. 
+E5: HA provides more answers in their [Addon installation Q/A](https://community.home-assistant.io/t/ha-docker-container-installing-addons/305947). Here, they answer that a user has to manage their own containerized applications if they choose to run add-ons using their own docker container. Without supervisor they will not be able to access the official add-on store as well. 
 
 ### Case 4 
 #### IoT Device 
