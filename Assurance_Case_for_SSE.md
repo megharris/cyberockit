@@ -139,7 +139,7 @@ E4: NA
 
 UM1: https://www.home-assistant.io/integrations/ambiclimate/
 	This is a continuation of  the argument in Evidence E2, showing that some devices are only referenced by HA by a user defined “client_id”. While this gives the user more control over their devices, and likely was done to make the user experience more user friendly, this is a serious security flaw that could be exploited by a malicious user.
-
+Updated.
 
 ### Reflection
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
