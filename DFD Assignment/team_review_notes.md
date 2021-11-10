@@ -1,4 +1,4 @@
-Dylan's Comments
+**Dylan's Comments**
      
      Shifat
 -	You may want to change the name of the trust boundary that is in front
@@ -28,3 +28,30 @@ Dylan's Comments
      you need one for the Transaction Database as that database is just acting 
      as a repository for the transactions, not being checked against like the 
      MFA Database is.
+
+**Noah's Comments**
+
+     Dylan
+     I may be wrong but the database block looks different from the regular database
+     items in the lecture, which usually have a two horizontal lines but no vertical 
+     lines. Boundary is also misspelled in your trust boundary. 
+     
+     Meg
+     You might be able to expand the data flow for 'invalid credentials', maybe I am 
+     incorrect but the data actually being sent may not be the credentials themselves
+     but rather a flag value or something else. Again not sure on that but it may not
+     actually send over the invalid credentials
+     
+     Shifat
+     You might be able to add another trust boundary between the user and the HA app,
+     and it looks like the database block is different than in lecture. The ones in 
+     the lecture only have two horizontal lines and no vertical lines. You might be 
+     able to reword your trust boundary for the developer boundary to something like
+     'External Development/Developer Boundary'. 
+     
+     Jay
+     You might look at changing both data flows called 'data information' to more 
+     descriptive data flows. You have one labeled for a data request and one for a 
+     data response. Describing what data is responding from the database and what
+     data is requesting in the Add-ons might help. Let me know if you'd like me to 
+     finalize your diagram on TMT once you make changes since you don't have access. 
