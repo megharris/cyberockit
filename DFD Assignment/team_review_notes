@@ -76,3 +76,24 @@ Jay
 - Trust boundary with the Add-On thing may be required
 - Should use remote commands as user inputs and a notification of successful command should be sent back to the user
 
+Jay's Comments
+
+Dylan
+- You may add trust boundary between database and HA core.
+- You may check the appropriate symbol used to define storage(database).
+
+Meg
+- As Dylan mentioned if 1.0 and 1.1 process are at same location they can be in single bubble.
+- If both are at different location, you may change data flow 'update confirmation' to 'updated credentials'. Also, 'invalid credentials' may not be sent for update profile credentials.
+
+Noah
+- I am not sure if configuration.yaml can be a storage or not.
+- Why do you have IoT rest API as the other process? and if it is other process you may need to number it.
+- I think process should not be oval in shape. Though I am not sure as I have not accessed TMT yet.
+
+Shifat
+- I guess if download is requested to HA the response should be related to download. Correct me if I am wrong.
+- I was not able to understand unknown developer as a name of trust boundary.
+- Few elements are highlighted darkly.
+- Application database has different symbol.
+
