@@ -1,12 +1,30 @@
 Dylan's Comments
+     
      Shifat
--	You may want to change the name of the trust boundary that is in front of the Application Provider from “Unknown Developer” to “App Store Boundary”. While “unknown developer” is accurate with the background knowledge of your use case, it is a bit ambiguous.
+-	You may want to change the name of the trust boundary that is in front
+     of the Application Provider from “Unknown Developer” to “App Store Boundary”.
+     While “unknown developer” is accurate with the background knowledge of your 
+     use case, it is a bit ambiguous.
+     
      Jay
 -	Drawing needs to be done in MTMT per Dr. G’s requirements
--	Change “Add-ons example VLC” to “Optional Applications”, Add-ons is a bit ambiguous for the entity.
--	For the “Memory” data flow, is this just the part of the a running HA optional application that is currently running in memory? You may want to make the name more defined.
+-	Change “Add-ons example VLC” to “Optional Applications”, Add-ons is a 
+     bit ambiguous for the entity.
+-	For the “Memory” data flow, is this just the part of the a running HA 
+     optional application that is currently running in memory? You may want 
+     to make the name more defined.
+     
      Noah
--	You’ll want to change the name of the data flow that connects the User to HA. “Secure Access” is a noun phrase but adding “log-in” to it would help clarify what action it is that the user is doing to HA. 
+-	You’ll want to change the name of the data flow that connects the User to HA.
+     “Secure Access” is a noun phrase but adding “log-in” to it would help clarify
+     what action it is that the user is doing to HA. 
+     
      Meg
--	Im not sure if “1.0 Home Assistant” and “1.1 Update Profile Credentials” are running in different memory parts at execution. If they are not, then they could be in the same Process bubble. 
--	I do think that your trust boundaries are correct for the user and the MFA database. I know you voiced concern about that previously. I do not believe you need one for the Transaction Database as that database is just acting as a repository for the transactions, not being checked against like the MFA Database is.
+-	Im not sure if “1.0 Home Assistant” and “1.1 Update Profile Credentials” are 
+     running in different memory parts at execution. If they are not, then they 
+     could be in the same Process bubble. 
+-	I do think that your trust boundaries are correct for the user and the MFA 
+     database. I know you voiced concern about that previously. I do not believe
+     you need one for the Transaction Database as that database is just acting 
+     as a repository for the transactions, not being checked against like the 
+     MFA Database is.
