@@ -1,4 +1,4 @@
-**Dylan's Comments**
+Dylan's Comments
      
      Shifat
 -	You may want to change the name of the trust boundary that is in front
@@ -29,7 +29,7 @@
      as a repository for the transactions, not being checked against like the 
      MFA Database is.
 
-**Noah's Comments**
+Noah's Comments
 
      Dylan
      I may be wrong but the database block looks different from the regular database
