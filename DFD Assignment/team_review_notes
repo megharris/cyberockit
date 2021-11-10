@@ -55,3 +55,24 @@ Noah's Comments
      data response. Describing what data is responding from the database and what
      data is requesting in the Add-ons might help. Let me know if you'd like me to 
      finalize your diagram on TMT once you make changes since you don't have access. 
+     
+Shifat's Comments
+
+Dylan
+- You may think about using another boundary that  separates the databases of linked IOT 
+- Identify any human involvement if it is available according to your context
+
+Meg
+- Process 1.1 seems a bit confusing
+- Why invalid data is sent for update?
+- I think you used misuse case scenarios for the diagram but I feel a use case scenario will show the normal interactions and its problems after analysis better
+
+Noah
+- User sends Secure Access is not a valid name for data flow
+- If user already a verified user no boundary is required in that case
+
+Jay
+- Change the name of the Add-On thing
+- Trust boundary with the Add-On thing may be required
+- Should use remote commands as user inputs and a notification of successful command should be sent back to the user
+
