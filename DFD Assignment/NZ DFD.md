@@ -9,4 +9,7 @@ I struggled with this one more, I didn't fully understand the REST API in connec
 ![image](https://user-images.githubusercontent.com/63809979/141315621-77c30983-9e58-4ed5-8997-4a8b7a51d9b5.png)
 
 
+## Report
+file:///C:/Users/nzetocha2/Desktop/threatModelReportNZ.htm
+
 **Notes**
