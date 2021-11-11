@@ -10,7 +10,7 @@ I struggled with this one more, I didn't fully understand the REST API in connec
 
 
 ## Report
-[NZ Threat Modeling Report](DFD.Assignment/Threat.Modeling.Report.NZ.pdf)
+[NZ Threat Modeling Report](DFD_Assignment/Threat_Modeling_Report_NZ.pdf)
 
 
 **Notes**
