@@ -98,6 +98,7 @@ Noah
      This is Meg commenting: why not? I'm also skeptical but it make more sense than being an external interactor or a process. I think.
 - Why do you have IoT rest API as the other process? and if it is other process you may need to number it.
      This is Meg commenting: I agree, I am also confused with Rest API as a process. 
+     Response: Yeah definitely, I think I over complicated it and the API should have been external. Given that it isn't actually related to the IoT device I removed it.
 - I think process should not be oval in shape. Though I am not sure as I have not accessed TMT yet.
      
 
