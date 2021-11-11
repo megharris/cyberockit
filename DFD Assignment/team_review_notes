@@ -52,6 +52,8 @@ Noah's Comments
      'External Development/Developer Boundary'. 
           This is Meg here: If the user doesn't trust the app, why are they using it to control their home? I hope that isn't coming off sarcastic, I'm really just
           curious to know why there should be a boundary between User and HA. Thanks!
+          Response: That makes sense, similarly in my diagram I wouldn't need one between the user and HA. Just so I understand would the app boundary on your 
+          diagram be similar? It looked the same but maybe I am misunderstanding. I took off the boundary on my diagram.
      
      Jay
      You might look at changing both data flows called 'data information' to more 
