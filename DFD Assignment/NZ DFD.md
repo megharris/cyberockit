@@ -11,6 +11,7 @@ I struggled with this one more, I didn't fully understand the REST API in connec
 
 ## Report
 [NZ Threat Modeling Report](Threat_Report_NZ.pdf)
+My report didn't come up with many threats, I'm not sure I did it correctly.
 
 
 **Notes**
