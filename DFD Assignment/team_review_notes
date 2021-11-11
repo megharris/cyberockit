@@ -14,6 +14,12 @@ Dylan's Comments
      optional application that is currently running in memory? You may want 
      to make the name more defined.
      
+     Jay - New Diagram
+-    You miss spelled retrieval in "Storage/retrievel query".
+-    Capitalize the first letter of all the words in the data connections, 
+     processes and entities. 
+-    Great job! This is much cleaner and flows well. 
+     
      Noah
 -	You’ll want to change the name of the data flow that connects the User to HA.
      “Secure Access” is a noun phrase but adding “log-in” to it would help clarify
