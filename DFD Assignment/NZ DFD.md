@@ -10,6 +10,7 @@ I struggled with this one more, I didn't fully understand the REST API in connec
 
 
 ## Report
-file:///C:/Users/nzetocha2/Desktop/threatModelReportNZ.htm
+[Threat Modeling Report.pdf](https://github.com/megharris/cyberockit/files/7521142/Threat.Modeling.Report.pdf)
+
 
 **Notes**
