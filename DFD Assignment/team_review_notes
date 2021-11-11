@@ -96,6 +96,7 @@ Meg
 Noah
 - I am not sure if configuration.yaml can be a storage or not.
      This is Meg commenting: why not? I'm also skeptical but it make more sense than being an external interactor or a process. I think.
+     Response: I think it counts because you are storing settings that you set up and save. Something to that effect.
 - Why do you have IoT rest API as the other process? and if it is other process you may need to number it.
      This is Meg commenting: I agree, I am also confused with Rest API as a process. 
      Response: Yeah definitely, I think I over complicated it and the API should have been external. Given that it isn't actually related to the IoT device I removed it.
