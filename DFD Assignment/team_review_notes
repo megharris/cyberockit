@@ -18,6 +18,7 @@ Dylan's Comments
 -	You’ll want to change the name of the data flow that connects the User to HA.
      “Secure Access” is a noun phrase but adding “log-in” to it would help clarify
      what action it is that the user is doing to HA. 
+          This is Meg commenting: Yes, it's a noun phrase but should be data flow noun phrase. So 'secure access credentials' or something similar
      
      Meg
 -	Im not sure if “1.0 Home Assistant” and “1.1 Update Profile Credentials” are 
@@ -35,6 +36,7 @@ Noah's Comments
      I may be wrong but the database block looks different from the regular database
      items in the lecture, which usually have a two horizontal lines but no vertical 
      lines. Boundary is also misspelled in your trust boundary. 
+          This is Meg commenting: this is the correct database symbol to use.
      
      Meg
      You might be able to expand the data flow for 'invalid credentials', maybe I am 
@@ -48,6 +50,8 @@ Noah's Comments
      the lecture only have two horizontal lines and no vertical lines. You might be 
      able to reword your trust boundary for the developer boundary to something like
      'External Development/Developer Boundary'. 
+          This is Meg here: If the user doesn't trust the app, why are they using it to control their home? I hope that isn't coming off sarcastic, I'm really just
+          curious to know why there should be a boundary between User and HA. Thanks!
      
      Jay
      You might look at changing both data flows called 'data information' to more 
@@ -70,6 +74,7 @@ Meg
 Noah
 - User sends Secure Access is not a valid name for data flow
 - If user already a verified user no boundary is required in that case
+     This is Meg commenting: agree
 
 Jay
 - Change the name of the Add-On thing
@@ -81,6 +86,7 @@ Jay's Comments
 Dylan
 - You may add trust boundary between database and HA core.
 - You may check the appropriate symbol used to define storage(database).
+     This is Meg commenting: this is the correct symbol.
 
 Meg
 - As Dylan mentioned if 1.0 and 1.1 process are at same location they can be in single bubble.
@@ -88,12 +94,35 @@ Meg
 
 Noah
 - I am not sure if configuration.yaml can be a storage or not.
+     This is Meg commenting: why not? I'm also skeptical but it make more sense than being an external interactor or a process. I think.
 - Why do you have IoT rest API as the other process? and if it is other process you may need to number it.
+     This is Meg commenting: I agree, I am also confused with Rest API as a process. 
 - I think process should not be oval in shape. Though I am not sure as I have not accessed TMT yet.
+     
 
 Shifat
 - I guess if download is requested to HA the response should be related to download. Correct me if I am wrong.
 - I was not able to understand unknown developer as a name of trust boundary.
 - Few elements are highlighted darkly.
+     This is Meg commenting here: They're only dark because they're actively selected. Click in the white space and those elements will be deselected and will no longer be dark.
 - Application database has different symbol.
+     This is Meg commenting here: The symbol is correct but the word application is misspelled.
+
+
+Meg's Comments
+
+Dylan:
+-Should the "HA Climate Control Program" be an external interactor instead of a database?
+
+Noah:
+-Data always comes from an external interactor. Maybe I am misunderstanding the directional flow of the process but 
+does the IoT device send a state response without being asked for a request first? Or is the request sent from the IoT Rest API first? If the request is sent first, then
+I go back to 'data comes from an external interactor.'
+
+Jay:
+-I have nothing to add to the other comments provided above.
+
+Shifat:
+-Looks good to me. 
+
 
