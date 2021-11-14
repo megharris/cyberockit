@@ -34,7 +34,24 @@
 
 
 ## Observations
+### Add-ons 
 
+### Authentication
+
+### IoT Devices
+
+
+#### Spoofing
+
+#### Tampering
+
+#### Repudiation
+
+#### Information Disclosure
+
+#### Denial of Service
+
+#### Elevation of Privelege
 
 ### Reflection
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
