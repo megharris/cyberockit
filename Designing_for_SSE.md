@@ -29,7 +29,7 @@
 ### Model 3
 #### IoT Devices
 ###### [Return to Top](#designing-for-software-security-engineering)
-![threatmodel1](https://user-images.githubusercontent.com/63809979/141689147-43920524-83ef-42e2-a98a-275bab0fad23.PNG)
+![threatmodel1](https://user-images.githubusercontent.com/63809979/141695329-0b2bca10-5870-4c4e-af3f-e1343ce47366.PNG)
 
 
 
