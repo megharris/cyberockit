@@ -8,7 +8,7 @@
 
 
 ### SECTION TWO
-* **[]()**
+* **[Observations]()**
 
 
 ## SECTION ONE
@@ -25,3 +25,7 @@
 ###### [Return to Top](#designing-for-software-security-engineering)
 
 ## Observations
+
+
+### Reflection
+###### [Return to Top](#assurance-case-for-system-security-engineering)
