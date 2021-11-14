@@ -40,7 +40,7 @@
 
 ### IoT Devices
 
-
+### STRIDE References
 #### Spoofing
 
 #### Tampering
