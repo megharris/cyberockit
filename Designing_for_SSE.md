@@ -4,7 +4,7 @@
 ### SECTION ONE
 * **[Add-ons](#threat-model-1.1)**
 * **[Authentication](#threat-model-1.2)**
-* **[IoT Devices](#threat-model-1.1)**
+* **[IoT Devices](#threat-model-1.3)**
 
 
 ### SECTION TWO
