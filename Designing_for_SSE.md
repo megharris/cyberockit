@@ -8,8 +8,10 @@
 
 
 ### SECTION TWO
-* **[Observations]()**
+* **[Observations](#observations)**
 
+### SECTION TWO
+* **[Reflection](#reflection)**
 
 ## SECTION ONE
 ### Threat Model 1
