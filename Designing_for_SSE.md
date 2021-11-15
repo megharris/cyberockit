@@ -49,11 +49,12 @@ https://www.home-assistant.io/integrations/logger/
 https://www.nabucasa.com/
 
 ### STRIDE References
-#### Spoofing
+Spoofing the user external entity and the user external destination entity in all three of our models, is mitigated in Home Assistant with basic and multi-factor authentication. Spoofing the IoT Device external destination entity is mitigated outside of Home Assistant for the device itself (usually in place but dependent on the device maker), and is dependent on Home Assistant's authentication for access through Home Assistant. Spoofing the core process is mitigated by the same basic authentication process as previously mentioned. Spoofing of the cloud data storage destination and source are mitigated by encrypting the data flow and providing authentication for access to the source and the cloud storage entity. Nabu Casa is the cloud storage service associated with Home Assistant and all data is encrypted and credentials are set up on that site.
 
 #### Tampering
 
 #### Repudiation
+Data repudiation by the Home Assistant core is mitigated by logging or auditing source, time and summary of the received data. It looks like the Logger integration available with Home Assistant provides configurable logging capabilities that seem to mitigate these threats. 
 
 #### Information Disclosure
 
