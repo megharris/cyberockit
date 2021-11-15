@@ -39,8 +39,11 @@
 ### Add-ons 
 
 ### Authentication
+https://www.home-assistant.io/docs/authentication/
+https://www.home-assistant.io/integrations/logger/
 
 ### IoT Devices
+https://www.nabucasa.com/
 
 ### STRIDE References
 #### Spoofing
