@@ -54,9 +54,10 @@ Spoofing the user external entity and the user external destination entity in al
 #### Tampering
 
 #### Repudiation
-Data repudiation by the Home Assistant core is mitigated by logging or auditing source, time and summary of the received data. It looks like the Logger integration available with Home Assistant provides configurable logging capabilities that seem to mitigate these threats. 
+Data repudiation by the Home Assistant core is mitigated by logging or auditing source, time and summary of the received data. It looks like the Logger integration available with Home Assistant provides configurable logging capabilities that seem to mitigate these threats. Data repudiation by installed applications would be mitigated by logging and auditing as described above and the Logger integration would mitigate this threat as well. External IoT devices denying receiving of data and cloud storage denying write data would also be mitigated by the Logger integration. 
 
 #### Information Disclosure
+Access control for the database resource should be mitigated by the standard authentication in Home Assistant. It looks like Home Assistant uses an internal SQLite database that would only be accessible through the main Home Assistant instance. Data flow sniffing would be mitigated by data encryption, in Home Assistant both Nabu Casa and the Let's Encrypt integration provide data encryption. 
 
 #### Denial of Service
 
