@@ -44,6 +44,8 @@
 
 Any process by [add-ons](https://developers.home-assistant.io/docs/add-ons/security/) are run in protection enabled mode which does not allow the process to have more previlege than they need to carry out their regular functions. HA also uses API roles from supervisor to use the supervisor store for installation of add-ons into the system. 
 
+HA communicates with add-ons in local storage using [internal proxy](https://developers.home-assistant.io/docs/add-ons/communication). Hence, the communication is done with the add-ons not having the password, port or any other information about the HA core instance. 
+
 ### Authentication
 A couple of our models included some sort of user access that is dependent on authentication to access the Home Assistant interface. Home Assistant includes mitigations for these threats with the Authentication system [here](https://www.home-assistant.io/docs/authentication/). A number of threats that arose from the threat modeling tool were mitigated by establishing a logging or audit function. Home Assistant has the Logger integration which seems to address these issues available [here](https://www.home-assistant.io/integrations/logger/). Let's Encrypt also includes a logging system that records certificates issued. Your local Home Assistant can then see if the certificates are being impersonated.
 
