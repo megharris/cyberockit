@@ -36,7 +36,7 @@
 
 
 ## Observations
-[Threat Modeling Report](/DFD_Assignment/1.1report.pdf)
+[Threat Modeling Report](https://github.com/megharris/cyberockit/blob/main/DFD%20Assignment/1.1report.pdf)
 
 ### Add-ons 
 
