@@ -21,22 +21,24 @@
 ###### [Return to Top](#designing-for-software-security-engineering)
 ![threatmodel3](https://user-images.githubusercontent.com/63809979/141689141-8ae68360-dca5-4bb3-9bac-1a12d07e1be2.PNG)
 
+[Threat Modeling Report](https://github.com/megharris/cyberockit/blob/main/DFD%20Assignment/1.1report.pdf)
 
 ### Model 2
 #### Authentication
 ###### [Return to Top](#designing-for-software-security-engineering)
 ![threatmodel2](https://user-images.githubusercontent.com/63809979/141689146-7235f9bf-ec9d-4ed8-a522-39c36cf228d9.PNG)
 
+[Threat Modeling Report](https://github.com/megharris/cyberockit/blob/main/DFD%20Assignment/1.2report.pdf)
 
 ### Model 3
 #### IoT Devices
 ###### [Return to Top](#designing-for-software-security-engineering)
 ![threatmodel1](https://user-images.githubusercontent.com/63809979/141695329-0b2bca10-5870-4c4e-af3f-e1343ce47366.PNG)
 
+[Threat Modeling Report](https://github.com/megharris/cyberockit/blob/main/DFD%20Assignment/1.3report.pdf)
 
 
 ## Observations
-[Threat Modeling Report](https://github.com/megharris/cyberockit/blob/main/DFD%20Assignment/1.1report.pdf)
 
 ### Add-ons 
 
