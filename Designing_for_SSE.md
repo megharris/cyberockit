@@ -35,18 +35,16 @@
 
 ## Observations
 [Threat Modeling Report](DFD Assignment/)
-A number of threats that arose from the threat modeling tool were mitigated by establishing a logging or audit function. Home Assistant has the Logger integration which seems to address these issues. A couple of our models included some sort of user access that is dependent on authentication to access the Home Assistant interface. Home Assistant includes mitigations for these threats with the Authentication system [here](https://www.home-assistant.io/docs/authentication/). The threats associated with accessing the cloud seem to be mitigated by NabuCasa. NabuCasa encrypts all data between your browser and your local Home Assistant Instance. Additionally, when logging in with NabuCasa authentication is done with your local credentials, but these credentials are stored locally and cannot be impersonated. More security docuentation on NabuCasa can be seen [here](https://www.nabucasa.com/config/remote/). The Let's Encrypt integration helps implement additional data encryption and works well with NabuCasa. Let's Encrypt includes a logging system that records certificates issued. Your local Home Assistant can then see if the certificates are being impersonated.
 
 ### Add-ons 
 https://developers.home-assistant.io/docs/add-ons/security/
 Any process by add-ons are run in protection enabled mode which does not allow the process to have more previlege than they need to carry out their regular functions. HA also uses API roles from supervisor to use the supervisor store for installation of add-ons into the system. 
 
 ### Authentication
-
-https://www.home-assistant.io/integrations/logger/
+A couple of our models included some sort of user access that is dependent on authentication to access the Home Assistant interface. Home Assistant includes mitigations for these threats with the Authentication system [here](https://www.home-assistant.io/docs/authentication/). A number of threats that arose from the threat modeling tool were mitigated by establishing a logging or audit function. Home Assistant has the Logger integration which seems to address these issues available [here](https://www.home-assistant.io/integrations/logger/). Let's Encrypt also includes a logging system that records certificates issued. Your local Home Assistant can then see if the certificates are being impersonated.
 
 ### IoT Devices
-https://www.nabucasa.com/
+The threats associated with accessing the cloud seem to be mitigated by NabuCasa. NabuCasa encrypts all data between your browser and your local Home Assistant Instance. Additionally, when logging in with NabuCasa authentication is done with your local credentials, but these credentials are stored locally and cannot be impersonated. More security docuentation on NabuCasa can be seen [here](https://www.nabucasa.com/config/remote/). The Let's Encrypt integration helps implement additional data encryption and works well with NabuCasa for cloud access.
 
 ### STRIDE References
 Spoofing the user external entity and the user external destination entity in all three of our models, is mitigated in Home Assistant with basic and multi-factor authentication. Spoofing the IoT Device external destination entity is mitigated outside of Home Assistant for the device itself (usually in place but dependent on the device maker), and is dependent on Home Assistant's authentication for access through Home Assistant. Spoofing the core process is mitigated by the same basic authentication process as previously mentioned. Spoofing of the cloud data storage destination and source are mitigated by encrypting the data flow and providing authentication for access to the source and the cloud storage entity. Nabu Casa is the cloud storage service associated with Home Assistant and all data is encrypted and credentials are set up on that site.
