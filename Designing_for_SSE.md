@@ -71,7 +71,7 @@ Access control for the database resource should be mitigated by the standard aut
 Potential excess resource consumption attacks would be mitigated by timeouts and resource consumption controls. The system monitor platform monitors disk usage, memory, CPU, and running processes. 
 
 #### Elevation of Privelege
-Cross-site request forgery would apply here with the remote access. The threat to the user's browser can be mitigated in transit via TLS and SSL. The remote access integration with Home Assistant is done with Nabu Casa, wghich uses the Duck DNS add-on integration. Duck DNS uses the TLS/SSL so this threat is mitigated. Encryption with Let's Encrypt is also useful here to protect the data flow.
+Cross-site request forgery would apply here with the remote access. The threat to the user's browser can be mitigated in transit via TLS and SSL. The remote access integration with Home Assistant is done with Nabu Casa, wghich uses the Duck DNS add-on integration. Duck DNS uses the TLS/SSL so this threat is mitigated. Encryption with Let's Encrypt is also useful here to protect the data flow. Home Assistant mobile app uses Sodium to encrypt two-way with the Home Assistant instance as discussed [here](https://developers.home-assistant.io/docs/api/native-app-integration/sending-data/#implementing-encryption).
 
 
 ### Reflection
