@@ -67,5 +67,6 @@ Potential excess resource consumption attacks would be mitigated by timeouts and
 #### Elevation of Privelege
 Cross-site request forgery would apply here with the remote access. The threat to the user's browser can be mitigated in transit via TLS and SSL. The remote access integration with Home Assistant is done with Nabu Casa, wghich uses the Duck DNS add-on integration. Duck DNS uses the TLS/SSL so this threat is mitigated. Encryption with Let's Encrypt is also useful here to protect the data flow.
 
+
 ### Reflection
 ###### [Return to Top](#assurance-case-for-system-security-engineering)
