@@ -36,7 +36,7 @@
 
 
 ## Observations
-[Threat Modeling Report](DFD Assignment/1.1report)
+[Threat Modeling Report](DFD_Assignment/1.1report.pdf)
 
 ### Add-ons 
 
