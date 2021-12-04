@@ -29,7 +29,7 @@ https://github.com/home-assistant/supervisor/tree/main/supervisor/homeassistant
 handler for core
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/store
-communication with add-on store
+check: data.py
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/utils
 not sure but needs to be considered for future work
