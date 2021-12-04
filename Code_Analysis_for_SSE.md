@@ -4,8 +4,11 @@ Manual Code Review Points:
 
 https://github.com/home-assistant/core/tree/dev/homeassistant/auth
 check: init, auth_store, models
+
 check permissions: init, entities, util
+
 mfa skipped as not included in diagrams
+
 check providers: all files
 
 https://github.com/home-assistant/core/tree/dev/homeassistant/components
