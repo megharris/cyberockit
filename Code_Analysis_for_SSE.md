@@ -15,8 +15,12 @@ https://github.com/home-assistant/core/blob/dev/homeassistant/config_entries.py
 https://github.com/home-assistant/core/blob/dev/homeassistant/core.py
 
 **Supervisor**
+
 https://github.com/home-assistant/supervisor/tree/main/supervisor/addons
-for addons cofig, validation and update
+check: data, addons, init and validate
+
+
+
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/hardware
 for hardware handling codes
