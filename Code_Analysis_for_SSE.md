@@ -26,7 +26,7 @@ https://github.com/home-assistant/supervisor/tree/main/supervisor/hardware
 for hardware handling codes
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/homeassistant
-handler for core
+check: api, core, module and websocket
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/store
 check: data.py
