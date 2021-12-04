@@ -3,7 +3,10 @@ Manual Code Review Points:
 **Core**
 
 https://github.com/home-assistant/core/tree/dev/homeassistant/auth
-for authentication
+check: init, auth_store, models
+check permissions: init, entities, util
+mfa skipped as not included in diagrams
+check providers: all files
 
 https://github.com/home-assistant/core/tree/dev/homeassistant/components
 we can look at a couple of internal component list and see how they interact with HA. Not Sure if required
