@@ -20,10 +20,8 @@ https://github.com/home-assistant/supervisor/tree/main/supervisor/addons
 check: data, addons, init and validate
 
 
-
-
 https://github.com/home-assistant/supervisor/tree/main/supervisor/hardware
-for hardware handling codes
+check: data, helper, manager, monitor and policy
 
 https://github.com/home-assistant/supervisor/tree/main/supervisor/homeassistant
 check: api, core, module and websocket
