@@ -1,7 +1,25 @@
-# Code Review Strategy
+# Code Analysis
 
-## Manual Code Review
+## Code Review Strategy
+
+
+## Findings from Manual Code Review
 
 ### Authentication
 #### CWE 778
 According to an article at [opensource.com](https://github.com/home-assistant/core/blob/dev/homeassistant/components/logger/__init__.py), the logging function has many benefits including, but not limited to, separating what isg accomplished from just exactly how it is accomplished. In our Design project, we explained that the Microsoft Threat Modeling Tool identified a number of threats that were mitigated by establishing a logging or audit function. Home Assistant has the Logger integration which seems to address these issues. Due to the importance of keeping a log for so many reasons, we determined that [CWE 778: Insufficient Logging](https://cwe.mitre.org/data/definitions/778.html) was important to evaluate for Home Assistant, and really any other software. HA's [logger webpage](https://www.home-assistant.io/integrations/logger/) takes us to the code that is used to invoke this feature. We reviewed the [init file](https://github.com/home-assistant/core/blob/dev/homeassistant/components/logger/__init__.py) and found that it is actually invoking the Python Logging module in line 2, which is powerful, thread-safe and meets the needs of various types of users.
+
+#### CWE 778
+
+### IoT Devices
+
+
+### Add-Ons
+
+## Findings from Automated Code Review
+
+## Summary of Key Findings
+
+## OSS Project Pull Requests, Issues, Discussions
+
+## Reflection and Collaboration
