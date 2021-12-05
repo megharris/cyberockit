@@ -4,6 +4,8 @@ According to an article at [opensource.com](https://github.com/home-assistant/co
 
 There are many Add-on applications that Home Assistant can download, and as such analyzing all of them is out of the scope of this project. While there is little attack surface for improper input which could lead to an injection attack, there are still small sections that require input validation. In Websocket.py there is an entry for messages into the web socket API, which must be checked. [CWE-20  -- Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html) is not valid in this case, as input is ran against a filter to verify that the input is of a specific JSON type. Exception logging is also handled in this script.
 
+## Add-ons
+
 CWE-20
 
 ![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png)
@@ -13,3 +15,8 @@ In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive I
 CWE-319
 
 ![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe319.png)
+
+
+## Ongoing Contributions
+
+The lead developers at Home Assistant take a very active role in the open-source community. This includes monthly blog updates, software bug fixes and code revisions. Community involvement in open-source software development is highly celebrated by the Home Assistant team, and the lead developers actively participate in the community engagement. Recently a hack-a-thon called Hacktoberfest was held as a way of celebrating open-source software and people contributing to open-source software (especially Home Assistant) in which many different changes to Home Assistant were made by volunteer developers. There is also the upcoming annual Home Assistant State-of-the-Union, where the lead developers for Home Assistant share their vision and plans for the next year, along with new features that they have been working on over the last year. 
