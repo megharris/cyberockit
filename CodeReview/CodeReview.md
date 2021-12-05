@@ -4,7 +4,7 @@ According to an article at [opensource.com](https://github.com/home-assistant/co
 
 There are many Add-on applications that Home Assistant can download, and as such analyzing all of them is out of the scope of this project. While there is little attack surface for improper input which could lead to an injection attack, there are still small sections that require input validation. In Websocket.py there is an entry for messages into the web socket API, which must be checked. [CWE-20  -- Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html) is not valid in this case, as input is ran against a filter to verify that the input is of a specific JSON type. Exception logging is also handled in this script.
 
-#CWE-20
-!(https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png)
+CWE-20
+![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png)
 
 In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html) is not a valid case as sensitive information (login credentials in this case) are not transmitted from supervisor to the add-on. Instead, a token is checked validity, for an add-on to start. The token is issued when supervisor is logged into by the user or by a service. This stops the credentials from needing to be entered in add-ons which may or may not be validated by the add-on store. Since the credentials only need to be entered in Supervisor, they are not transmitted over the network. The token is changed for each instance that Supervisor is logged in or an application is requested to start up.  
