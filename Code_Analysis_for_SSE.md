@@ -27,7 +27,8 @@ Home Assistant uses one of the suggested hash functions by the CEW-916 that is b
 ![Alt text](ss-5.png)
 
 The code for this is found in Homeassistant.py file which provides authentication. 
-CWE-308: Use of Single-factor Authentication. According to CWE-308, single-factor authentication can lead to unnecessary risk. Home assistant uses multifactor authentication which minimizes this risk. Home assistant provides max three trails for mfa. 
+#### CWE-308
+Use of Single-factor Authentication. According to CWE-308, single-factor authentication can lead to unnecessary risk. Home assistant uses multifactor authentication which minimizes this risk. Home assistant provides max three trails for mfa. 
 
 ![Alt text](ss-6.png)
 
