@@ -20,7 +20,7 @@ Reliance on IP Address for Authentication can be a valid CWE for Home Assistant.
 ![Alt text](ss-3.png)
 
 Changing the return value to True can enable the multifactor authentication for trusted network. 
-#### CWE-916: 
+#### CWE-916
 Use of Password Hash with Insufficient Computational Effort. The CWE-916 specifies that using password hash function with insufficient computational effort can be harmful as many hash functions execute quickly with minimal overhead. CWE-916 suggests few hash functions that should be used such as bcrypt, scrypt, and PBKDF2 because they are all stronger than using salts with hash functions with very little computing overhead. 
 Home Assistant uses one of the suggested hash functions by the CEW-916 that is bcrypt.
 
