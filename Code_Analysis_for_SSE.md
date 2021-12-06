@@ -40,7 +40,7 @@ Home Assistant uses one of the suggested hash functions by the CWE-916 that is b
 The code for this is found in Homeassistant.py file which provides authentication. 
 
 #### [CWE-308](https://cwe.mitre.org/data/definitions/308.html)
-Use of Single-factor Authentication. According to CWE-308, single-factor authentication can lead to unnecessary risk. Home assistant uses multifactor authentication which minimizes this risk. Home assistant provides max three trails for mfa. 
+Use of Single-factor Authentication. According to CWE-308, single-factor authentication can lead to unnecessary risk. Home assistant uses multifactor authentication which minimizes this risk. Home assistant provides max three trials for mfa. 
 
 <img src="ss-6.png" alt="drawing" width="600"/>
 
