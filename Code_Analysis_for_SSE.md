@@ -51,7 +51,9 @@ Code for this can be found at Core/homeassistant/auth/mfa_modules/_init_.py
 
 
 ### IoT Devices
-#### CWE 1196
+#### CWE 1173
+
+#### CWE 707
 
 ### Add-Ons
 #### CWE-20
