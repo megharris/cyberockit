@@ -82,12 +82,12 @@ In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive I
 
 Sensitive information that HA and Supervisor system uses are most of the time, the information for authenticating, validating and specifying a particular user of the HA system over the network. The current code review documents that all the sensitive information transferred in addon.py and auth.py for authentication has not been stored as clear text. They used random tokens for user sessions which are used for identification over the network and passwords were encrypted during storage while authenticating.
 
-<img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.40.08%20PM.png" alt="drawing" width="600"/>
+<img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.40.08%20PM.png" alt="drawing" width="400"/>
 
 
 The image from [auth_store.py]() shows tokens to be used so that sensitive information is not required after users has access to the system in order to use other web features.
 
-![image](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.48.26%20PM.png)
+<img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.48.26%20PM.png" alt="drawing" width="400"/>
 
 The user data is stored as private in the data dictionary.
 
@@ -95,8 +95,7 @@ The user data is stored as private in the data dictionary.
 
 Encryption is one of the most used protection for data in a system. We looked for sensitive data flows in the system and their storage. User data and passwords used in HA were all found to have proper encryption where necessary. In command line interface the password is popped after certification. 
 
-
-![image](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%209.16.02%20PM.png)
+<img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%209.16.02%20PM.png" alt="drawing" width="400"/>
 
 
 
