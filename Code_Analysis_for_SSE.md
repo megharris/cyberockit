@@ -70,7 +70,7 @@ This CWE covers improper validation of certificate with host mismatch and can be
 
 <img src="https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png" alt="drawing" width="400"/>
 
-### [CWE-20](https://cwe.mitre.org/data/definitions/20.html)
+#### [CWE-20](https://cwe.mitre.org/data/definitions/20.html)
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png" alt="drawing" width="600"/>
 
 There are many Add-on applications that Home Assistant can download, and as such analyzing all of them is out of the scope of this project. While there is little attack surface for improper input which could lead to an injection attack, there are still small sections that require input validation. In Websocket.py there is an entry for messages into the web socket API, which must be checked. [CWE-20  -- Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html) is not valid in this case, as input is ran against a filter to verify that the input is of a specific JSON type. Exception logging is also handled in this script.
