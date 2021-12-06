@@ -78,6 +78,27 @@ In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive I
 
 #### CWE-319
 
+#### [CWE-312](https://cwe.mitre.org/data/definitions/312.html)
+
+Sensitive information that HA and Supervisor system uses are most of the time, the information for authenticating, validating and specifying a particular user of the HA system over the network. The current code review documents that all the sensitive information transferred in addon.py and auth.py for authentication has not been stored as clear text. They used random tokens for user sessions which are used for identification over the network and passwords were encrypted during storage while authenticating.
+
+![image](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.40.08%20PM.png)
+
+The image from [auth_store.py]() shows tokens to be used so that sensitive information is not required after users has access to the system in order to use other web features.
+
+![image](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.48.26%20PM.png)
+
+The user data is stored as private in the data dictionary.
+
+#### [CWE-311](https://cwe.mitre.org/data/definitions/311.html)
+
+Encryption is one of the most used protection for data in a system. We looked for sensitive data flows in the system and their storage. User data and passwords used in HA were all found to have proper encryption where necessary. In command line interface the password is popped after certification. 
+
+
+![image](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%209.16.02%20PM.png)
+
+
+
 ![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe319.png)
 
 ## Findings from Automated Code Review
