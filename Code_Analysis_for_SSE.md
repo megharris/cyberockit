@@ -59,7 +59,7 @@ The HTTP integration of HA is implemented in all active installations. This inte
 
 
 #### [CWE-1173](https://cwe.mitre.org/data/definitions/1173.html)
-This CWE covers [improper use of the validation framework](https://cwe.mitre.org/data/definitions/1173.html). This CWE is more applicable than the regular user input CWE 20 since in the use of IoT devices, the process usually does not involve the input of information by the user, but rather communication and input by the devices themselves. Due to this, in communication with the IoT devices, proper validation needs to occur for all inputs. Python generally does a good job of providing necessary validation frameworks for data. The example below was found in [core/homeassistant/components/__init__.py](https://github.com/home-assistant/core/blob/dev/homeassistant/components/__init__.py). When connecting with IoT device components, input validation is most likely occuring at an appropriate level here in the case of bracketed entity_id and domain, with Python handling validation of inputs. 
+This CWE covers [improper use of the validation framework](https://cwe.mitre.org/data/definitions/1173.html). This CWE is more applicable than the regular user input CWE 20 since in the use of IoT devices, the process usually does not involve the input of information by the user, but rather communication and input by the devices themselves. Due to this, in communication with the IoT devices, proper validation needs to occur for all inputs. Python generally does a good job of providing necessary validation frameworks for data. The example below was found in [core/homeassistant/components/__init__.py](https://github.com/home-assistant/core/blob/dev/homeassistant/components/__init__.py). When connecting with IoT device components, input validation is occurring at an appropriate level here in the case of bracketed entity_id and domain, with Python handling validation of inputs. 
 
 <img src="https://user-images.githubusercontent.com/63809979/144771827-a0af4ba2-a8fc-46dd-ac38-2de6635695b3.png" alt="drawing" width="400"/>
 
@@ -141,7 +141,7 @@ We used a second tool for static analysis and got a very different set of result
 
 [CWE-23](https://cwe.mitre.org/data/definitions/23.html)
 
-The 3 high severity issues are mapped to CWE-23. If an attacker can get hands on the contents of final_path the core system can be compromised. This issue is found in the [components](https://github.com/home-assistant/core/tree/dev/homeassistant/components) folder of HA core which was not part of our manual inspection. These are the codes for various components that can be downloaded and used with HA. They are similar to add-ons but are more built as components for the core HA which are officially provided with HA for download.
+The 3 high severity issues are mapped to CWE-23. If an attacker can get hands on the contents of final_path the core system can be compromised. This issue is found in the [components](https://github.com/home-assistant/core/tree/dev/homeassistant/components) folder of HA core. These are the codes for various components that can be downloaded and used with HA. They are similar to add-ons but are more built as components for the core HA which are officially provided with HA for download.
 
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%2010.26.44%20PM.png" alt="drawing" width="400"/>
 
