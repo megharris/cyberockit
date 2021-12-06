@@ -64,7 +64,8 @@ Improper neutralization is applicable in home assistant in the case of the below
 
 ### I could include this in here, I found it when looking at the auto code review issue, it was referenced
 #### CWE 297
-This CWE covers improper validation of certificate with host mismatch and can be found [here](https://cwe.mitre.org/data/definitions/297.html). 
+This CWE covers improper validation of certificate with host mismatch and can be found [here](https://cwe.mitre.org/data/definitions/297.html). Home Assistant must communicate with a host but if its name mismatches with the certificate it provides that becomes an issue. Here an issue was found in the context of the auto review and included in this section about CWEs.
+
 ![image](https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png)
 
 
