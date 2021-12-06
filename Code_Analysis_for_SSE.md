@@ -51,10 +51,18 @@ Code for this can be found at Core/homeassistant/auth/mfa_modules/_init_.py
 
 
 ### IoT Devices
-
+#### CWE 1196
 
 ### Add-Ons
+#### CWE-20
 
+![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png)
+
+In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html) is not a valid case as sensitive information (login credentials in this case) are not transmitted from supervisor to the add-on. Instead, a token is checked validity, for an add-on to start. The token is issued when supervisor is logged into by the user or by a service. This stops the credentials from needing to be entered in add-ons which may or may not be validated by the add-on store. Since the credentials only need to be entered in Supervisor, they are not transmitted over the network. The token is changed for each instance that Supervisor is logged in or an application is requested to start up.  
+
+#### CWE-319
+
+![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe319.png)
 
 ## Findings from Automated Code Review
 
@@ -62,6 +70,6 @@ Code for this can be found at Core/homeassistant/auth/mfa_modules/_init_.py
 ## Summary of Key Findings
 
 ## OSS Project Pull Requests, Issues, Discussions
-
+The lead developers at Home Assistant take a very active role in the open-source community. This includes monthly blog updates, software bug fixes and code revisions. Community involvement in open-source software development is highly celebrated by the Home Assistant team, and the lead developers actively participate in the community engagement. Recently a hack-a-thon called Hacktoberfest was held as a way of celebrating open-source software and people contributing to open-source software (especially Home Assistant) in which many different changes to Home Assistant were made by volunteer developers. There is also the upcoming annual Home Assistant State-of-the-Union, where the lead developers for Home Assistant share their vision and plans for the next year, along with new features that they have been working on over the last year. 
 
 ## Reflection and Collaboration
