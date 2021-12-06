@@ -75,7 +75,19 @@ In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive I
 ![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe319.png)
 
 ## Findings from Automated Code Review
+Sonarcloud was a useful automated code review tool that allowed a static analysis of the github codebase. Sonarcloud works well with Python as well which was imperative since Home Assistant is almost completely written in Python. Some of the highlights seen from the code review of the core repository were in using a stronger SSL/TLS protocol. The instance in the code can be seen here. This issue was found in multiple files and in multiple contexts within Home Assistant.
 
+![image](https://user-images.githubusercontent.com/63809979/144774740-336d1425-f830-45dd-9c69-9e2937b04f55.png)
+
+Given that Home Assistant is using a protocol generally deemed secure, these issues were not followed up on.
+
+Additionally, in analysis of the HA core, one of the IoT component sets available with Home Assistant revealed an issue with server hostname verification on the SSL/TLS connection. Both instances occured in the [core/homeassistant/components/mikrotik/hub.py](https://github.com/home-assistant/core/blob/dev/homeassistant/components/mikrotik/hub.py). 
+
+![image](https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png)
+
+The issue here is that the hostname verification should be set to True. Analysis of the core on sonarcloud can be found [here](https://sonarcloud.io/project/overview?id=nzetun_hacore).
+
+The static analysis of Home Assistant Supervisor revealed two secure mode and padding scheme issues. Analysis of the HA Supervisor can be found [here](https://sonarcloud.io/project/overview?id=nzetun_cyberockit).
 
 ## Summary of Key Findings
 
