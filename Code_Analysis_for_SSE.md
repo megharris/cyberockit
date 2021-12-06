@@ -85,7 +85,7 @@ Sensitive information that HA and Supervisor system uses are most of the time, t
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.40.08%20PM.png" alt="drawing" width="400"/>
 
 
-The image from [auth_store.py]() shows tokens to be used so that sensitive information is not required after users has access to the system in order to use other web features.
+The image from [auth_store.py](https://github.com/home-assistant/core/blob/dev/homeassistant/auth/auth_store.py) line 211 to 299 shows refresh and authorization tokens to be used so that sensitive information is not required after users has access to the system in order to use other web features for accessing the add-on store. Tokens are used rather than the actual user information. 
 
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%208.48.26%20PM.png" alt="drawing" width="400"/>
 
@@ -97,6 +97,7 @@ Encryption is one of the most used protection for data in a system. We looked fo
 
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%209.16.02%20PM.png" alt="drawing" width="400"/>
 
+The password verification and storage is done with encryption as seen from [homeassistant.py](https://github.com/home-assistant/core/blob/dev/homeassistant/auth/providers/homeassistant.py) for authorization.
 
 
 ![](https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe319.png)
