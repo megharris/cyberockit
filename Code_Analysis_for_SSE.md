@@ -29,7 +29,7 @@ In providers, _init_.py the authentication provider functions and multifactor au
 ![Alt text](ss-2.png)
 
 #### CWE-291
-Reliance on IP Address for Authentication can be a valid CWE for Home Assistant. Home Assistant relies on the trusted network IP addresses to bypass the log-in without any credentials. As per CWE-291, relying on the IP address to bypass the log-in can be harmful. I addresses can easily be spoofed. At least the multifactor authentication should be implemented while allowing trusted networks to bypass the log-in. Code for trusted network is found under providers folder, trusted_network.py. 
+Reliance on IP Address for Authentication can be a valid CWE for Home Assistant. Home Assistant relies on the trusted network IP addresses to bypass the log-in without any credentials. As per CWE-291, relying on the IP address to bypass the log-in can be harmful. Ip addresses can easily be spoofed. At least the multifactor authentication should be implemented while allowing trusted networks to bypass the log-in. Code for trusted network is found under providers folder, trusted_network.py. 
 
 ![Alt text](ss-4.png) 
 ![Alt text](ss-3.png)
@@ -37,7 +37,7 @@ Reliance on IP Address for Authentication can be a valid CWE for Home Assistant.
 Changing the return value to True can enable the multifactor authentication for trusted network. 
 #### CWE-916
 Use of Password Hash with Insufficient Computational Effort. The CWE-916 specifies that using password hash function with insufficient computational effort can be harmful as many hash functions execute quickly with minimal overhead. CWE-916 suggests few hash functions that should be used such as bcrypt, scrypt, and PBKDF2 because they are all stronger than using salts with hash functions with very little computing overhead. 
-Home Assistant uses one of the suggested hash functions by the CEW-916 that is bcrypt.
+Home Assistant uses one of the suggested hash functions by the CWE-916 that is bcrypt.
 
 ![Alt text](ss-5.png)
 
