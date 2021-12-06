@@ -1,6 +1,8 @@
 # Code Review Analysis
 
 ## Code Review Strategy
+Without much familiarity of CWEs, they’re a vast pool of information with which we are not familiar. Manual code review is the most daunting, as it’s hard to determine where to start due to the volume of files and code. Additionally, our team is very limited in knowledge of Python, which is the primary language used by Home Assistant. Our strategy consisted of scoping in the security weaknesses identified in our threat models, assurance claims, and misuse cases identified earlier in the semester. We identified CWEs that would be most important for these processes. This turned out to be a bit of an iterative process: as we identified CWEs and reviewed the code, we found that there were other CWEs that appeared relevant and that CWEs previously identified, were possibly not as applicable. Ultimately, we were able to review approximately one to five files for each CWE. Our strategy adjusted as we went through the process. Originally, we planned to identify a few CWEs for each of the primary processes reviewed in the threat modeling assignment: authentication, IoT devices, and add-ons. However, it became clear that several of the CWEs applied to multiple processes. Therefore the strategy changed to review those processes but not to evaluate a CWE for only one particular process as it could apply to many of those three. Only one automated tool appeared to be fairly useful for Python code, SonarCloud. We also determined that Snyk might be useful. However, we did not put much emphasis on the results of the automated tool
+
 
 ## Findings from Manual Code Review
 
