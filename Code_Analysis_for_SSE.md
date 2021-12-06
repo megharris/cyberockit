@@ -70,13 +70,12 @@ This CWE covers improper validation of certificate with host mismatch and can be
 
 <img src="https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png" alt="drawing" width="400"/>
 
-#### [CWE-20](https://cwe.mitre.org/data/definitions/20.html)
 
+#### [CWE-319](https://cwe.mitre.org/data/definitions/319.html)
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/cwe20.png" alt="drawing" width="600"/>
 
 In Supervisor/addon/addon.py [CWE- 319 – Cleartext transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html) is not a valid case as sensitive information (login credentials in this case) are not transmitted from supervisor to the add-on. Instead, a token is checked validity, for an add-on to start. The token is issued when supervisor is logged into by the user or by a service. This stops the credentials from needing to be entered in add-ons which may or may not be validated by the add-on store. Since the credentials only need to be entered in Supervisor, they are not transmitted over the network. The token is changed for each instance that Supervisor is logged in or an application is requested to start up.  
 
-#### [CWE-319](https://cwe.mitre.org/data/definitions/319.html)
 
 #### [CWE-312](https://cwe.mitre.org/data/definitions/312.html)
 
