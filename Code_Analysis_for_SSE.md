@@ -52,10 +52,14 @@ Code for this can be found at Core/homeassistant/auth/mfa_modules/_init_.py
 
 ### IoT Devices
 #### CWE 1173
-This CWE covers [improper use of the validation framework](https://cwe.mitre.org/data/definitions/1173.html). This CWE is more applicable than the regular user input CWE 20 since in the use of IoT devices, the process usually does not involve the input of information by the user, but rather communication and input by the devices themselves. Due to this, in communication with the IoT devices, proper validation needs to occur for all inputs. Python generally does a good job of providing necessary validation frameworks for data. This can be analyzed below. Input validation is most likely occuring at an appropriate level here in the case of bracketed entity_id and domain, with Python handling validation of inputs. ![image](https://user-images.githubusercontent.com/63809979/144771827-a0af4ba2-a8fc-46dd-ac38-2de6635695b3.png)
+This CWE covers [improper use of the validation framework](https://cwe.mitre.org/data/definitions/1173.html). This CWE is more applicable than the regular user input CWE 20 since in the use of IoT devices, the process usually does not involve the input of information by the user, but rather communication and input by the devices themselves. Due to this, in communication with the IoT devices, proper validation needs to occur for all inputs. Python generally does a good job of providing necessary validation frameworks for data. The example below was found in core/homeassistant/components/__init__.py. When connecting with IoT device components, input validation is most likely occuring at an appropriate level here in the case of bracketed entity_id and domain, with Python handling validation of inputs. 
+![image](https://user-images.githubusercontent.com/63809979/144771827-a0af4ba2-a8fc-46dd-ac38-2de6635695b3.png)
 
 
 #### CWE 707
+Improper neutralization is applicable in home assistant in the case of the below message, turning text data to a proper URL with slugify. The CWE for improper neutralization can be found [here](https://cwe.mitre.org/data/definitions/707.html). In the case of slugify it is neutralizing the input text into a new slug value before passing it on, and it also checks for None or an empty string showing proper validation. This code was found in core/homeassistant/util/__init__.py.
+![image](https://user-images.githubusercontent.com/63809979/144773035-19dae527-e312-45b6-b8c4-9fe80b2d0da5.png)
+
 
 ### Add-Ons
 #### CWE-20
