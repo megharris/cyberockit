@@ -62,6 +62,11 @@ Improper neutralization is applicable in home assistant in the case of the below
 
 ![image](https://user-images.githubusercontent.com/63809979/144773035-19dae527-e312-45b6-b8c4-9fe80b2d0da5.png)
 
+### I could include this in here, I found it when looking at the auto code review issue, it was referenced
+#### CWE 297
+This CWE covers improper validation of certificate with host mismatch and can be found [here](https://cwe.mitre.org/data/definitions/297.html). 
+![image](https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png)
+
 
 ### Add-Ons
 #### CWE-20
@@ -83,7 +88,8 @@ Given that Home Assistant is using a protocol generally deemed secure, these iss
 
 Additionally, in analysis of the HA core, one of the IoT component sets available with Home Assistant revealed an issue with server hostname verification on the SSL/TLS connection. Both instances occured in the [core/homeassistant/components/mikrotik/hub.py](https://github.com/home-assistant/core/blob/dev/homeassistant/components/mikrotik/hub.py). 
 
-![image](https://user-images.githubusercontent.com/63809979/144775047-92de9c37-9d8f-46fc-b101-00a90d74f41c.png)
+
+![image](https://user-images.githubusercontent.com/63809979/144776188-1cd7a776-8ce6-46c4-9283-24b71af0840a.png)
 
 The issue here is that the hostname verification should be set to True. Analysis of the core on sonarcloud can be found [here](https://sonarcloud.io/project/overview?id=nzetun_hacore).
 
