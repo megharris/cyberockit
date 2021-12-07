@@ -147,7 +147,8 @@ The 3 high severity issues are mapped to CWE-23. If an attacker can get hands on
 
 <img src="https://github.com/megharris/cyberockit/blob/main/CodeReview/images/Screen%20Shot%202021-12-05%20at%2010.33.30%20PM.png" alt="drawing" width="400"/>
 
-Results of HA core from Snyk.io can be found [here](https://github.com/megharris/cyberockit/blob/main/CodeReview/HA%20core%20High%20Severity%20Issues.pdf).
+Results of HA core from Snyk.io can be found [here](https://github.com/megharris/cyberockit/blob/main/CodeReview/HA%20core%20High%20Severity%20Issues.pdf) and results of supervisor code analysis can be found [here](https://github.com/megharris/cyberockit/blob/main/CodeReview/supervisor.pdf).
+
 
 ## Summary of Key Findings
 
